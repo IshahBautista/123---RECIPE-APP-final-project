@@ -8,26 +8,150 @@ with open(file_path, 'r') as file:
     recipes_data = json.load(file)
     #recipe data has been loaded
 
+class Trie:
+    class TrieNode:
+        def __init__(self):
+            self.child = [None] * 26
+            self.word_end = False
+            self.word = None  # Store the complete word at the end node
+    
+    def insert_key(root, key):
+        currentnode = root
+
+        # Iterate across the length of the string
+        for currentkey in key:
+            # Check if the letter is already in the tree
+            index = ord(currentkey) - ord('a')
+            if currentnode.child[index] is None: 
+                new_node = Trie.TrieNode() #if does not exist yet, make new node
+                # Keep the reference for the newly created node
+                currentnode.child[index] = new_node
+
+            currentnode = currentnode.child[index]
+
+        currentnode.word_end = True #indicate it is end of the word (lowest child of the tree)
+        currentnode.word = key  #store the complete word
+
+    def search_key(root, key):
+        currentnode = root
+
+        for currentkey in key:
+            index = ord(currentkey) - ord('a')
+            if currentnode.child[index] is None:
+                return False
+
+            currentnode = currentnode.child[index]
+
+        return currentnode.word_end #true if word exists and marks ending
+
+    #returns all the preprocessed words from a given node
+    def search_prefix(root, prefix):
+        curr = root
+        for c in prefix:
+            index = ord(c) - ord('a')
+            if curr.child[index] is None:
+                return []  # No words found with this prefix
+            curr = curr.child[index]
+        
+        # Collect all words starting from the current node
+        results = []
+        Trie.collect_words(curr, results)
+        return results
+    
+    def collect_words(node, results):
+        if node.word_end:
+            results.append(node.word)
+        for child in node.child:
+            if child:
+                Trie.collect_words(child, results)
+
+#HELPER METHODS ______________________________________________________
+#for pre processing the words to lowercase and remove the space
+def pre_process(key):
+    if key is None:
+        return ""
+    return ''.join(char for char in key.lower() if char.isalpha())
+
+#for getting the specific recipe based on the obtained name
+def search_recipe(name):
+    for recipe in recipes_data:
+            if recipe["preprocessedname"] == name:
+                return recipe
+
+#class that returns the search results based on some prefix input in the search bar
+class SearchResults:
+    def __init__(self):
+        self.__preProcessedNameList = [recipe['preprocessedname'] for recipe in recipes_data]
+        self.__root = Trie.TrieNode() #create the node here
+        self.__searchKey = None #currently empty but will be replaced later
+        self.storeRecipesinTrie()
+
+    def setSearchKey(self, key):
+        self.__searchKey = key
+
+    def storeRecipesinTrie(self):
+        self.__preProcessedNameList = [recipe['preprocessedname'] for recipe in recipes_data]
+        for preProcessedName in self.__preProcessedNameList:
+            Trie.insert_key(self.__root, preProcessedName) #add the word's letters into the trie
+
+    def getResultsfromPrefix(self):
+        preProcessedPrefix = pre_process(self.__searchKey)
+        print(f"Prefix: {preProcessedPrefix}")
+        resultsList = Trie.search_prefix(self.__root, preProcessedPrefix)
+        
+        NameList = []
+        for result in resultsList:
+            foundRecipe = search_recipe(result)
+            if foundRecipe is not None and result == foundRecipe['preprocessedname']:
+                NameList.append(foundRecipe['name'])
+        print(f"Found Recipes: {NameList}")
+        return NameList
+
+    def findRecipes(self):
+        return self.getResultsfromPrefix()
+
 class CustomSearchBar(ft.UserControl):
     def __init__(self):
         super().__init__()
         self.anchor = None  
 
     def build(self):
+        searchresults = SearchResults()
+
         def close_anchor(e: ControlEvent):
             text = f"{e.control.data}" 
             print(f"Closing view from {text}")
             self.anchor.close_view(text)
 
-        def handle_change(e: ControlEvent):
-            print(f"handle_change e.data: {e.data}")
-
-        def handle_submit(e: ControlEvent):
-            print(f"handle_submit e.data: {e.data}")
-
-        def handle_tap(e):
-            print(f"handle_tap")
+        def open_anchor(e: ControlEvent):
             self.anchor.open_view()
+
+        def handle_change(e: ControlEvent):
+            searchresults.setSearchKey(e.data)
+            print(f"handle_change e.data: {e.data}")
+            RecipeNameList = searchresults.findRecipes()
+
+            # Create new controls based on search results
+            if RecipeNameList:
+                new_controls = [
+                    ft.ListTile(
+                        title=ft.Text(recipe),
+                        on_click=close_anchor,
+                        data=recipe
+                    )
+                    for recipe in RecipeNameList
+                ]
+            else:
+                new_controls = [
+                    ft.ListTile(
+                        title=ft.Text("No Recipe Found...")
+                    )
+                ]
+
+            # Update the anchor controls
+            self.anchor.controls = new_controls  # Use direct assignment instead of clear/extend
+            self.anchor.update()
+            self.update()
 
         self.anchor = ft.SearchBar(
             view_elevation=4,
@@ -35,34 +159,8 @@ class CustomSearchBar(ft.UserControl):
             bar_hint_text="Search Recipes...",
             view_hint_text="Choose a Recipe...",
             on_change=handle_change,
-            on_submit=handle_submit,
-            on_tap=handle_tap,
-            controls=[
-                ft.ListTile(                
-                    title=ft.Text(recipe['name']), #for what will be shown in the last
-                    on_click=close_anchor, 
-                    data = recipe['name'] #for e.control.data
-                )
-                for recipe in recipes_data
-            ],
+            bar_leading=ft.IconButton(icon="search"),
+            controls=[]
         )
         return self.anchor
 
-def main(page: Page):
-    page.title = "Search Bar"
-    page.vertical_alignment = ft.MainAxisAlignment.START
-    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
-
-    customSearchBar = CustomSearchBar()
-    #page layout here
-    page.add(
-        ft.Column(
-            [
-                customSearchBar
-            ],
-            alignment=ft.MainAxisAlignment.CENTER
-        )
-    )
-
-
-ft.app(main)
