@@ -1,4 +1,4 @@
-# 123---RECIPE-APP-final-project
+# 123 - RECIPE APP final project
 **README FILE**
 Lets try to follow some coding conventions to keep our code readable and easy to make changes to because we're collaborating
 1. Let's have different UI screens be different files, in each file we can include the backend and the frontend,
