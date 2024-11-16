@@ -1,0 +1,157 @@
+[
+    {
+      "name": "Spaghetti Carbonara",
+      "origin": "Italy",
+      "prep_time": "25 minutes",
+      "ingredients": ["spaghetti", "eggs", "parmesan cheese", "pancetta", "black pepper", "salt"],
+      "recipes": "Cook spaghetti until al dente. Mix eggs and cheese in a bowl. Sauté pancetta until crispy. Toss spaghetti with pancetta, then remove from heat and stir in egg mixture. Season with black pepper and serve.",
+      "steps": [
+        "Boil spaghetti in salted water until al dente.",
+        "Whisk eggs and parmesan cheese together in a bowl.",
+        "Cook pancetta in a skillet until crispy.",
+        "Drain spaghetti and mix with pancetta in the skillet.",
+        "Remove from heat and stir in the egg and cheese mixture.",
+        "Season with black pepper and serve immediately."
+      ]
+    },
+    {
+      "name": "Chicken Adobo",
+      "origin": "Philippines",
+      "prep_time": "40 minutes",
+      "ingredients": ["chicken", "soy sauce", "vinegar", "garlic", "bay leaves", "black peppercorns", "sugar"],
+      "recipes": "Marinate chicken in soy sauce and garlic for 30 minutes. Simmer marinated chicken with vinegar, bay leaves, peppercorns, and sugar. Cook until sauce thickens.",
+      "steps": [
+        "Marinate chicken with soy sauce and crushed garlic for 30 minutes.",
+        "Place marinated chicken in a pot and add vinegar, bay leaves, peppercorns, and sugar.",
+        "Simmer over medium heat until chicken is tender and sauce thickens.",
+        "Serve with steamed rice."
+      ]
+    },
+    {
+      "name": "Sushi Rolls",
+      "origin": "Japan",
+      "prep_time": "45 minutes",
+      "ingredients": ["sushi rice", "nori sheets", "fresh fish", "avocado", "cucumber", "soy sauce", "wasabi"],
+      "recipes": "Prepare sushi rice. Spread rice on nori sheet, add fillings, and roll tightly. Slice into pieces and serve with soy sauce and wasabi.",
+      "steps": [
+        "Cook sushi rice according to package instructions and let cool.",
+        "Place a nori sheet shiny side down on a bamboo mat.",
+        "Spread a thin layer of rice over the nori.",
+        "Add fish, avocado, and cucumber as fillings.",
+        "Roll tightly using the bamboo mat and slice into bite-sized pieces.",
+        "Serve with soy sauce and wasabi."
+      ]
+    },
+    {
+      "name": "Tacos",
+      "origin": "Mexico",
+      "prep_time": "30 minutes",
+      "ingredients": ["tortillas", "ground beef", "onion", "tomato", "lettuce", "cheese", "taco seasoning"],
+      "recipes": "Cook ground beef with taco seasoning. Assemble tacos with tortillas, cooked beef, and desired toppings.",
+      "steps": [
+        "Cook ground beef in a skillet with taco seasoning.",
+        "Warm tortillas in a pan or microwave.",
+        "Fill tortillas with cooked beef, chopped onion, diced tomato, shredded lettuce, and cheese.",
+        "Serve with salsa or sour cream, if desired."
+      ]
+    },
+    {
+      "name": "Pancakes",
+      "origin": "United States",
+      "prep_time": "20 minutes",
+      "ingredients": ["flour", "milk", "egg", "sugar", "baking powder", "salt", "butter"],
+      "recipes": "Mix dry ingredients. Combine wet ingredients and mix with dry. Cook batter in a buttered skillet until golden brown.",
+      "steps": [
+        "Mix flour, sugar, baking powder, and salt in a bowl.",
+        "Whisk milk, egg, and melted butter together.",
+        "Combine wet and dry ingredients to form a smooth batter.",
+        "Pour batter into a hot, buttered skillet and cook until bubbles form on the surface.",
+        "Flip and cook until golden brown on the other side.",
+        "Serve with syrup or your favorite toppings."
+      ]
+    },
+    {
+      "name": "Bibimbap",
+      "origin": "Korea",
+      "prep_time": "35 minutes",
+      "ingredients": ["rice", "beef", "spinach", "carrot", "zucchini", "egg", "gochujang"],
+      "recipes": "Cook rice and sauté vegetables. Fry beef in soy sauce and garlic. Assemble in a bowl and top with egg and gochujang.",
+      "steps": [
+        "Cook rice and set aside.",
+        "Sauté spinach, carrot, and zucchini in sesame oil.",
+        "Cook beef slices in soy sauce and garlic.",
+        "Assemble rice, vegetables, and beef in a bowl.",
+        "Top with a fried egg and a dollop of gochujang."
+      ]
+    },
+    {
+      "name": "Tom Yum Soup",
+      "origin": "Thailand",
+      "prep_time": "30 minutes",
+      "ingredients": ["shrimp", "lemongrass", "galangal", "lime leaves", "fish sauce", "chili paste", "mushrooms"],
+      "recipes": "Boil broth with lemongrass, galangal, and lime leaves. Add shrimp, mushrooms, and seasonings. Simmer and serve hot.",
+      "steps": [
+        "Bring chicken stock to a boil with lemongrass, galangal, and lime leaves.",
+        "Add mushrooms and simmer for 5 minutes.",
+        "Add shrimp and cook until they turn pink.",
+        "Season with fish sauce and chili paste.",
+        "Serve with a squeeze of lime."
+      ]
+    },
+    {
+      "name": "Butter Chicken",
+      "origin": "India",
+      "prep_time": "50 minutes",
+      "ingredients": ["chicken", "butter", "tomatoes", "cream", "onion", "garlic", "garam masala"],
+      "recipes": "Cook chicken in butter. Prepare tomato and cream sauce with spices. Simmer chicken in sauce until tender.",
+      "steps": [
+        "Marinate chicken with spices and yogurt.",
+        "Cook chicken in butter until browned.",
+        "Prepare a sauce with tomatoes, cream, onion, and garlic.",
+        "Simmer chicken in the sauce for 20 minutes.",
+        "Serve with naan or rice."
+      ]
+    },
+    {
+      "name": "Greek Salad",
+      "origin": "Greece",
+      "prep_time": "15 minutes",
+      "ingredients": ["tomato", "cucumber", "red onion", "feta cheese", "olives", "olive oil", "oregano"],
+      "recipes": "Chop vegetables and toss with feta, olives, olive oil, and oregano.",
+      "steps": [
+        "Chop tomatoes, cucumber, and red onion.",
+        "Combine vegetables in a bowl with feta and olives.",
+        "Drizzle with olive oil and sprinkle with oregano.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "name": "Beef Stroganoff",
+      "origin": "Russia",
+      "prep_time": "40 minutes",
+      "ingredients": ["beef", "mushrooms", "onion", "sour cream", "butter", "beef broth", "flour"],
+      "recipes": "Sauté beef and mushrooms. Make sauce with butter, flour, broth, and sour cream. Combine with beef and serve over noodles.",
+      "steps": [
+        "Sauté beef strips in butter until browned.",
+        "Cook mushrooms and onions in the same pan.",
+        "Prepare a sauce with butter, flour, and beef broth.",
+        "Mix in sour cream and simmer with beef.",
+        "Serve over egg noodles or rice."
+      ]
+    },
+    {
+      "name": "Pad Thai",
+      "origin": "Thailand",
+      "prep_time": "30 minutes",
+      "ingredients": ["rice noodles", "shrimp", "egg", "bean sprouts", "peanuts", "tamarind paste", "fish sauce"],
+      "recipes": "Soak rice noodles. Stir-fry shrimp, egg, and sauce. Toss with noodles and bean sprouts.",
+      "steps": [
+        "Soak rice noodles in water until soft.",
+        "Cook shrimp in a hot wok.",
+        "Add beaten egg and scramble.",
+        "Mix in tamarind paste, fish sauce, and noodles.",
+        "Toss with bean sprouts and crushed peanuts."
+      ]
+    }
+  ]
+  
