@@ -32,8 +32,8 @@ class CustomSearchBar(ft.UserControl):
         self.anchor = ft.SearchBar(
             view_elevation=4,
             divider_color=ft.colors.AMBER,
-            bar_hint_text="Search colors...",
-            view_hint_text="Choose a color from the suggestions...",
+            bar_hint_text="Search Recipes...",
+            view_hint_text="Choose a Recipe...",
             on_change=handle_change,
             on_submit=handle_submit,
             on_tap=handle_tap,
