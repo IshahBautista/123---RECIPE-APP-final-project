@@ -12,7 +12,8 @@
         "Drain spaghetti and mix with pancetta in the skillet.",
         "Remove from heat and stir in the egg and cheese mixture.",
         "Season with black pepper and serve immediately."
-      ]
+      ],
+      "preprocessedname": "spaghetticarbonara"
     },
     {
       "name": "Chicken Adobo",
@@ -25,7 +26,8 @@
         "Place marinated chicken in a pot and add vinegar, bay leaves, peppercorns, and sugar.",
         "Simmer over medium heat until chicken is tender and sauce thickens.",
         "Serve with steamed rice."
-      ]
+      ],
+      "preprocessedname": "chickenadobo"
     },
     {
       "name": "Sushi Rolls",
@@ -40,7 +42,8 @@
         "Add fish, avocado, and cucumber as fillings.",
         "Roll tightly using the bamboo mat and slice into bite-sized pieces.",
         "Serve with soy sauce and wasabi."
-      ]
+      ],
+      "preprocessedname": "sushirolls"
     },
     {
       "name": "Tacos",
@@ -53,7 +56,8 @@
         "Warm tortillas in a pan or microwave.",
         "Fill tortillas with cooked beef, chopped onion, diced tomato, shredded lettuce, and cheese.",
         "Serve with salsa or sour cream, if desired."
-      ]
+      ],
+      "preprocessedname": "tacos"
     },
     {
       "name": "Pancakes",
@@ -68,7 +72,8 @@
         "Pour batter into a hot, buttered skillet and cook until bubbles form on the surface.",
         "Flip and cook until golden brown on the other side.",
         "Serve with syrup or your favorite toppings."
-      ]
+      ],
+      "preprocessedname": "pancakes"
     },
     {
       "name": "Bibimbap",
@@ -82,7 +87,8 @@
         "Cook beef slices in soy sauce and garlic.",
         "Assemble rice, vegetables, and beef in a bowl.",
         "Top with a fried egg and a dollop of gochujang."
-      ]
+      ],
+      "preprocessedname": "bibimbap"
     },
     {
       "name": "Tom Yum Soup",
@@ -96,7 +102,8 @@
         "Add shrimp and cook until they turn pink.",
         "Season with fish sauce and chili paste.",
         "Serve with a squeeze of lime."
-      ]
+      ],
+      "preprocessedname": "tomyumsoup"
     },
     {
       "name": "Butter Chicken",
@@ -110,7 +117,8 @@
         "Prepare a sauce with tomatoes, cream, onion, and garlic.",
         "Simmer chicken in the sauce for 20 minutes.",
         "Serve with naan or rice."
-      ]
+      ],
+      "preprocessedname": "butterchicken"
     },
     {
       "name": "Greek Salad",
@@ -123,7 +131,8 @@
         "Combine vegetables in a bowl with feta and olives.",
         "Drizzle with olive oil and sprinkle with oregano.",
         "Serve immediately."
-      ]
+      ],
+      "preprocessedname": "greeksalad"
     },
     {
       "name": "Beef Stroganoff",
@@ -137,7 +146,8 @@
         "Prepare a sauce with butter, flour, and beef broth.",
         "Mix in sour cream and simmer with beef.",
         "Serve over egg noodles or rice."
-      ]
+      ],
+      "preprocessedname": "beefstroganoff"
     },
     {
       "name": "Pad Thai",
@@ -151,7 +161,158 @@
         "Add beaten egg and scramble.",
         "Mix in tamarind paste, fish sauce, and noodles.",
         "Toss with bean sprouts and crushed peanuts."
-      ]
+      ],
+      "preprocessedname": "padthai"
+    },
+    {
+      "name": "Sinigang",
+      "origin": "Philippines",
+      "prep_time": "45 minutes",
+      "ingredients": ["pork", "tamarind", "tomatoes", "kangkong", "eggplant", "string beans", "onion", "fish sauce"],
+      "recipes": "Simmer pork in tamarind broth. Add vegetables gradually. Season with fish sauce to taste.",
+      "steps": [
+          "Boil pork pieces in water with tomatoes and onions",
+          "Add tamarind base or fresh tamarind and simmer until meat is tender",
+          "Add vegetables starting with the firmest (eggplant, string beans)",
+          "Add leafy vegetables (kangkong) last",
+          "Season with fish sauce and serve hot"
+      ],
+      "preprocessedname": "sinigang"
+    },
+    {
+        "name": "Pancit Bihon",
+        "origin": "Philippines",
+        "prep_time": "35 minutes",
+        "ingredients": ["rice noodles", "chicken", "carrots", "cabbage", "soy sauce", "garlic", "green onions", "calamansi"],
+        "recipes": "Stir-fry chicken and vegetables. Add soaked noodles and season with soy sauce.",
+        "steps": [
+            "Soak rice noodles in warm water",
+            "Stir-fry chicken pieces until cooked",
+            "Add vegetables and cook until tender-crisp",
+            "Add drained noodles and season with soy sauce",
+            "Garnish with green onions and serve with calamansi"
+        ],
+        "preprocessedname": "pancitbihon"
+    },
+    {
+        "name": "Kare Kare",
+        "origin": "Philippines",
+        "prep_time": "90 minutes",
+        "ingredients": ["oxtail", "peanut butter", "eggplant", "banana blossom", "bok choy", "ground rice", "shrimp paste"],
+        "recipes": "Cook oxtail until tender. Make peanut sauce with ground rice. Add vegetables and simmer.",
+        "steps": [
+            "Cook oxtail in pressure cooker until tender",
+            "Make sauce with peanut butter and ground toasted rice",
+            "Add vegetables in stages based on cooking time",
+            "Simmer until sauce thickens",
+            "Serve with shrimp paste on the side"
+        ],
+        "preprocessedname": "karekare"
+    },
+    {
+        "name": "Mac and Cheese",
+        "origin": "United States",
+        "prep_time": "30 minutes",
+        "ingredients": ["macaroni", "cheddar cheese", "milk", "butter", "flour", "breadcrumbs", "mustard powder"],
+        "recipes": "Make cheese sauce with roux. Mix with cooked pasta. Top with breadcrumbs and bake.",
+        "steps": [
+            "Cook macaroni according to package directions",
+            "Make roux with butter and flour, add milk to make bechamel",
+            "Stir in cheese and seasonings until melted",
+            "Mix sauce with cooked pasta",
+            "Top with breadcrumbs and bake until bubbly"
+        ],
+        "preprocessedname": "macandcheese"
+    },
+    {
+        "name": "Sisig",
+        "origin": "Philippines",
+        "prep_time": "60 minutes",
+        "ingredients": ["pork face", "chicken liver", "onion", "calamansi", "chili peppers", "mayonnaise", "egg"],
+        "recipes": "Grill pork until crispy. Chop and mix with liver, onions, and seasonings. Serve sizzling.",
+        "steps": [
+            "Boil pork face until tender, then grill until crispy",
+            "Chop grilled pork into small pieces",
+            "Mix with chopped chicken liver and onions",
+            "Season with calamansi juice and chili",
+            "Serve on sizzling plate topped with egg"
+        ],
+        "preprocessedname": "sisig"
+    },
+    {
+        "name": "Lasagna",
+        "origin": "Italy",
+        "prep_time": "75 minutes",
+        "ingredients": ["lasagna noodles", "ground beef", "tomato sauce", "ricotta cheese", "mozzarella", "parmesan", "eggs"],
+        "recipes": "Layer noodles with meat sauce and cheese mixture. Bake until bubbly.",
+        "steps": [
+            "Make meat sauce with ground beef and tomatoes",
+            "Mix ricotta with eggs and parmesan",
+            "Layer noodles, meat sauce, and cheese mixture",
+            "Top with mozzarella",
+            "Bake covered, then uncovered until golden"
+        ],
+        "preprocessedname": "lasagna"
+    },
+    {
+        "name": "Chicken Tinola",
+        "origin": "Philippines",
+        "prep_time": "40 minutes",
+        "ingredients": ["chicken", "green papaya", "ginger", "garlic", "chili leaves", "fish sauce", "onion"],
+        "recipes": "Simmer chicken with ginger and garlic. Add green papaya and chili leaves.",
+        "steps": [
+            "Sauté ginger, garlic, and onion",
+            "Add chicken pieces and cook until lightly browned",
+            "Pour in water and simmer until chicken is tender",
+            "Add green papaya chunks",
+            "Add chili leaves and season with fish sauce"
+        ],
+        "preprocessedname": "chickentinola"
+    },
+    {
+        "name": "Shepherd's Pie",
+        "origin": "United Kingdom",
+        "prep_time": "60 minutes",
+        "ingredients": ["ground lamb", "potatoes", "carrots", "peas", "onion", "gravy", "butter", "milk"],
+        "recipes": "Cook meat with vegetables and gravy. Top with mashed potatoes and bake.",
+        "steps": [
+            "Cook ground lamb with vegetables and gravy",
+            "Make mashed potatoes with butter and milk",
+            "Layer meat mixture in baking dish",
+            "Top with mashed potatoes and create peaks",
+            "Bake until golden brown on top"
+        ],
+        "preprocessedname": "shepherdspie"
+    },
+    {
+        "name": "Bicol Express",
+        "origin": "Philippines",
+        "prep_time": "45 minutes",
+        "ingredients": ["pork", "coconut milk", "shrimp paste", "chili peppers", "garlic", "ginger", "onion"],
+        "recipes": "Cook pork in coconut milk with chilies and shrimp paste until sauce thickens.",
+        "steps": [
+            "Sauté garlic, ginger, and onion",
+            "Add pork and cook until lightly browned",
+            "Add shrimp paste and chili peppers",
+            "Pour in coconut milk and simmer until thick",
+            "Adjust spiciness to taste"
+        ],
+        "preprocessedname": "bicolexpress"
+    },
+    {
+        "name": "Chicken Pot Pie",
+        "origin": "United States",
+        "prep_time": "65 minutes",
+        "ingredients": ["chicken", "pie crust", "carrots", "peas", "celery", "cream", "butter", "flour"],
+        "recipes": "Make cream sauce with vegetables and chicken. Pour into pie crust and bake.",
+        "steps": [
+            "Cook chicken and vegetables in butter",
+            "Make cream sauce with flour and chicken broth",
+            "Combine sauce with chicken and vegetables",
+            "Pour into pie crust-lined dish",
+            "Top with second crust and bake until golden"
+        ],
+        "preprocessedname": "chickenpotpie"
     }
   ]
   
