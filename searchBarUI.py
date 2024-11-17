@@ -103,8 +103,7 @@ class SearchResults:
         for result in resultsList:
             foundRecipe = search_recipe(result)
             if foundRecipe is not None and result == foundRecipe['preprocessedname']:
-                NameList.append(foundRecipe['name'])
-        print(f"Found Recipes: {NameList}")
+                NameList.append(foundRecipe)
         return NameList
 
     def findRecipes(self):
@@ -114,44 +113,23 @@ class CustomSearchBar(ft.UserControl):
     def __init__(self):
         super().__init__()
         self.anchor = None  
+        self.recipeListReturn = []
 
+    def getrecipeListReturn(self):
+            for specificRecipe in self.recipeListReturn:
+                print(f"Name: {specificRecipe['name']}")
+            return self.recipeListReturn
+    
     def build(self):
         searchresults = SearchResults()
-
-        def close_anchor(e: ControlEvent):
-            text = f"{e.control.data}" 
-            print(f"Closing view from {text}")
-            self.anchor.close_view(text)
-
-        def open_anchor(e: ControlEvent):
-            self.anchor.open_view()
 
         def handle_change(e: ControlEvent):
             searchresults.setSearchKey(e.data)
             print(f"handle_change e.data: {e.data}")
             RecipeNameList = searchresults.findRecipes()
+            self.recipeListReturn = RecipeNameList
 
-            # Create new controls based on search results
-            if RecipeNameList:
-                new_controls = [
-                    ft.ListTile(
-                        title=ft.Text(recipe),
-                        on_click=close_anchor,
-                        data=recipe
-                    )
-                    for recipe in RecipeNameList
-                ]
-            else:
-                new_controls = [
-                    ft.ListTile(
-                        title=ft.Text("No Recipe Found...")
-                    )
-                ]
-
-            # Update the anchor controls
-            self.anchor.controls = new_controls  # Use direct assignment instead of clear/extend
-            self.anchor.update()
-            self.update()
+            self.getrecipeListReturn()
 
         self.anchor = ft.SearchBar(
             view_elevation=4,
