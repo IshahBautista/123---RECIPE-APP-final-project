@@ -3,7 +3,7 @@ from flet import *
 
 import json 
 
-file_path = r'D:\SCHOOL\1STSEM_2NDYR\CMSC123\FINALPROJECT\projectFiles\recipesAll.json'
+file_path = r'C:\Users\laris\Desktop\larissa\vs code\git\123_final\123---RECIPE-APP-final-project\recipesAll.json'
 with open(file_path, 'r') as file: 
     recipes_data = json.load(file)
     #recipe data has been loaded
