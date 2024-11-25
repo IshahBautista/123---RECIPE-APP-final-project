@@ -109,16 +109,19 @@ class SearchResults:
     def findRecipes(self):
         return self.getResultsfromPrefix()
 
+#This class is the search bar itself
+#It is connected to the display class and is dependent on it
 class CustomSearchBar(ft.UserControl):
-    def __init__(self):
+    def __init__(self, recipeList, display):
         super().__init__()
         self.anchor = None  
         self.recipeListReturn = []
+        self.__recipeList = recipeList
+        self.__display = display
 
     def getrecipeListReturn(self):
             for specificRecipe in self.recipeListReturn:
                 print(f"Name: {specificRecipe['name']}")
-            return self.recipeListReturn
     
     def build(self):
         searchresults = SearchResults()
@@ -128,8 +131,10 @@ class CustomSearchBar(ft.UserControl):
             print(f"handle_change e.data: {e.data}")
             RecipeNameList = searchresults.findRecipes()
             self.recipeListReturn = RecipeNameList
-
+            self.__recipeList["value"] = self.recipeListReturn
+            self.__display.updateRecipeCards(self.__recipeList)
             self.getrecipeListReturn()
+
 
         self.anchor = ft.SearchBar(
             view_elevation=4,
@@ -138,7 +143,8 @@ class CustomSearchBar(ft.UserControl):
             view_hint_text="Choose a Recipe...",
             on_change=handle_change,
             bar_leading=ft.IconButton(icon="search"),
-            controls=[]
+            controls=[],
+            width=400
         )
         return self.anchor
 
