@@ -7,13 +7,15 @@ with open('recipesAll.json', 'r') as file:
     recipes_data = json.load(file)
 
 class Node:
-    def __init__(self, value = 0):
+    def __init__(self, key, value):
         self.left = None
         self.right = None
         self.parent = None
+        self.next = None
+        self.key = key
         self.value = value
 
-# Scapegoat tree for prep time filter
+# Scapegoat tree with chaining for prep time filter
 class SGTree:
     def __init__(self):
         self.root = None
@@ -26,8 +28,8 @@ class SGTree:
         return 1 + self.size(node.left) + self.size(node.right)
     
     # add a new node into the tree
-    def add(self, x):
-        new_node = Node(x)
+    def add(self, key, value):
+        new_node = Node(key, value)
         depth = self.BSTInsertAndFindDepth(new_node) #insert node into the tree and get its depth
         if depth > math.ceil(2.4663034623764317 * math.log(self.num_of_nodes, 3)): #check if tree is unbalanced
             parent = new_node.parent
@@ -57,23 +59,35 @@ class SGTree:
             parent.left.parent = parent
 
     def buildBalancedFromArray(self, arr, index, num_of_nodes):
-        #base case
+        # Base case
         if num_of_nodes == 0:
             return None
-        middle_elem = num_of_nodes // 2 #find the middle element of arr
+        middle_elem = num_of_nodes // 2
 
-        #create a node for the middle element and recursively build balance BST's
-        #from the left and right halves of the array
-        arr[index + middle_elem].left = self.buildBalancedFromArray(arr, index, middle_elem)
-        if arr[index + middle_elem].left is not None:
-            arr[index + middle_elem].left.parent = arr[index + middle_elem]
+        # Create the root node for this subtree
+        root = arr[index + middle_elem]
 
-        arr[index + middle_elem].right = self.buildBalancedFromArray(arr, index+middle_elem+1, num_of_nodes-middle_elem-1)
-        if arr[index + middle_elem].right is not None:
-            arr[index + middle_elem].right.parent = arr[index + middle_elem]
+        # Rebuild the left and right subtrees recursively
+        root.left = self.buildBalancedFromArray(arr, index, middle_elem)
+        if root.left:
+            root.left.parent = root
 
-        return arr[index + middle_elem] #return the root of the balanced BST
-    
+        root.right = self.buildBalancedFromArray(arr, index + middle_elem + 1, num_of_nodes - middle_elem - 1)
+        if root.right:
+            root.right.parent = root
+
+        # Rebuild the chain of duplicates
+        current = root
+        for i in range(index + middle_elem + 1, index + num_of_nodes):
+            if arr[i].key == root.key:
+                current.next = arr[i]
+                arr[i].parent = root.parent  # Maintain parent consistency for chained nodes
+                current = current.next
+            else:
+                break
+        current.next = None  # Terminate the chain
+        return root
+
     def BSTInsertAndFindDepth(self, u):
         current = self.root
         if current is None: # If the tree is empty, insert the node as the root
@@ -83,22 +97,31 @@ class SGTree:
         done = False
         depth = 0
         while not done: # Traverse the tree to find the correct place for the new node
-            if u.value < current.value:
+            if u.key < current.key:
                 if current.left is None:
                     current.left = u
                     u.parent = current
                     done = True
                 else:
                     current = current.left
-            elif u.value > current.value:
+            elif u.key > current.key:
                 if current.right is None:
                     current.right = u
                     u.parent = current
-                    done = True
+                    done = True 
                 else:
                     current = current.right
-            else:
-                return -1 # Value already exists
+            else: # if key is the same, add the node to the chain
+                if current.value == -1:
+                    # Reuse the free slot by replacing the value
+                    current.value = u.value
+                    return -1  # Indicate that no new node was added
+                elif current.next is None:
+                    current.next = u
+                    u.parent = current.parent
+                    return -1  # Indicate that no new unique node was added
+                else:
+                    current = current.next
             depth += 1 # Increase depth as we go down the tree
         self.num_of_nodes += 1
         return depth
@@ -107,61 +130,54 @@ class SGTree:
         if node is None:
             return index
         index = self.storeInArray(node.left, arr, index)
-        arr[index] = node
-        index += 1
+
+         # Add all nodes in the chain to the array
+        temp = node
+        while temp:  # Include all nodes in the chain
+            arr[index] = temp
+            index += 1
+            temp = temp.next
+        
         return self.storeInArray(node.right, arr, index)
 
-    # return a list of values that are less than or equal to the param
-    def filter(self, value):
-        result = []
-        stack = []
+    # return a list of values that have keys less than or equal than the param
+    def findAndFilter(self, key):
+        result = [] # Initialize the result list to store matching recipe indices
+        stack = [] # Stack to simulate in-order traversal
         current = self.root
-
-        while stack or current:
-            # Go as far left as possible
+        while stack or current: # In-order traversal of the BST
             while current:
                 stack.append(current)
                 current = current.left
-
-            # Process the node
-            current = stack.pop()
-            if current.value <= value:
-                result.append(current.value)
-            else:
-                break
-            current = current.right # Move to the right child
+            if stack:
+                current = stack.pop()
+                if current.key <= key:
+                    # Add all nodes in the chain (for duplicates) that match the condition
+                    temp = current
+                    while temp:
+                        if temp.value != -1:
+                            result.append(temp.value)  # Store the value (index) for each matching node
+                        temp = temp.next  # Move to the next node in the chain
+                if current.key > key: # If the current key is greater than the input key, no need to visit further nodes
+                    break
+                current = current.right # Continue with the right subtree
         return result
 
 # create the bst and add multiples of 5 ranging from 5 - 90
 prep_time_bst = SGTree()
 for num in range(5,91,5):
-    prep_time_bst.add(num)
+    prep_time_bst.add(num, -1) #add -1 as temporary values 
 
-# create a list of prep_times from the json file
-prep_times = []
+# make prep times as the keys and indices of the json file as the values
 for index, recipe in enumerate(recipes_data):
     prep_time_int = int(re.search(r'\d+', recipe['prep_time']).group()) #extracting num from string
-    prep_times.append(prep_time_int)
+    prep_time_bst.add(prep_time_int, index)
 
-# add the prep_times in the bst
-for num in prep_times:
-    prep_time_bst.add(num)
 
 #`````````````for modification```````````````
 
-# prep_time filter input
+# prep time filter input
 filter_input = int(input("Enter time: ")) 
-filtered_list = prep_time_bst.filter(filter_input)
+indices_list = prep_time_bst.findAndFilter(filter_input) #final indices list for prep time filter
+print(indices_list)
 #````````````````````````````````````````````
-
-# return a list of indices of the filtered recipes based on the json file
-indices_list = [] #final indices list for prep time filter
-for num in filtered_list:
-    for index, recipe in enumerate(recipes_data):
-        prep_time_int = int(re.search(r'\d+', recipe['prep_time']).group()) #extracting num from string
-        if prep_time_int == num:
-            indices_list.append(index)
-
-
-#`````````````for modification```````````````
-print(indices_list) # the order of the list is in increasing prep time 

@@ -34,7 +34,7 @@ class HashTable:
             self.size += 1
 
     #takes advantage of collision, all values sharing the same key are accessed 
-    def find(self, key):
+    def findAndFilter(self, key):
         index = self._hash(key)
         indices_list = [] 
         current = self.table[index]
@@ -55,7 +55,7 @@ for index in range(len(recipes_data)): #iterate through the file and add element
 
 # difficulty filter input
 filter_input = int(input("Enter difficulty: ")) 
-indices_list = difficulty_hash_table.find(filter_input) #final indices list for difficulty filter
+indices_list = difficulty_hash_table.findAndFilter(filter_input) #final indices list for difficulty filter
 print(indices_list)
 #````````````````````````````````````````````
 
