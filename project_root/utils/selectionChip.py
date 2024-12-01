@@ -5,12 +5,17 @@ class SelectionChip(ft.UserControl):
     def __init__(self, chipname: str):
         super().__init__()
         self.chipname = chipname
-        self.selected = False  # Track selection state
-        self.container = None  # Store reference to container
+        self.selected = False  
+        self.container = None  
         self.widthval = 70
         # change the width of the chip if the string length is too long
         if len(self.chipname) > 7:
             self.widthval = 100
+        elif len(self.chipname) > 14:
+            self.widthval = 200
+
+    def mouseHover(self, e):
+        self.container.bgcolor = ft.colors.WHITE60 if e.data == "true" else ft.colors.WHITE10,
 
     def build(self):
         def toggle_button(e: ft.ControlEvent):
@@ -30,6 +35,7 @@ class SelectionChip(ft.UserControl):
             border_radius=20,
             border=ft.border.all(2, ft.colors.GREY_400),
             on_click=toggle_button,
+            on_hover=self.mouseHover,
         )
         
         return self.container

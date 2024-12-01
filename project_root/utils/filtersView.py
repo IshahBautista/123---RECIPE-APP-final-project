@@ -1,7 +1,7 @@
 import flet as ft
 from flet import *
-from .searchBarUI import recipes_data
 from .selectionChip import SelectionChip
+from config import json_path, recipes_data
 
 class FilterType:
     def __init__(self, filterName: str, filterOptions: list[str]):
@@ -46,7 +46,7 @@ class SliderFilter(ft.Control):
             width=350,
             border_radius=10,
             content=ft.Slider(
-                        width=390,
+                        width=400,
                         min=5,
                         max=90,
                         divisions=17,

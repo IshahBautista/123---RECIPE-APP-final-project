@@ -3,7 +3,9 @@ from flet import *
 from utils.searchBarUI import CustomSearchBar
 from utils.recipeCard import *
 from utils.filtersView import * 
-    
+from utils.header import Header
+from config import json_path, recipes_data
+
 #All Recipes
 def get_allrecipesview(page: ft.Page):
     page.title = "All Recipes View"
@@ -16,19 +18,30 @@ def get_allrecipesview(page: ft.Page):
 
     #use a mutable object (dictionary) so that its value can be
     #carried over across the different files and classes
-    recipeListMutable = {"value": None}
+    recipeListMutable = {"value": recipes_data}
+
+    def initializeRecipeCards(recipeList):
+            recipeListCards = []
+            for recipe in recipeList["value"]:
+                newCard = RecipeCard(recipe)
+                recipeListCards.append(newCard.getCardView())
+                print("Card views appended successfully!")
+            
+            return recipeListCards
+    
+    recipeListCards = initializeRecipeCards(recipeListMutable)
 
     #Contians the cards for the recipes
     RecipeContainer = ft.Container(
         width=400,
-        height=510,
+        height=540,
         padding=10,
         margin=2,
         border_radius=20,
-        bgcolor=ft.colors.GREY_200,
         content=ft.Column(
             scroll=ft.ScrollMode.ALWAYS,
             spacing=3,
+            controls=recipeListCards
             )
     )   
 
@@ -60,7 +73,7 @@ def get_allrecipesview(page: ft.Page):
                             color=ft.colors.BLUE_500,
                             
                         ),
-                        originFilter.build(),
+                        originFilter.build(), #object
                     ],
                 ),
                 ft.Row(
@@ -71,7 +84,7 @@ def get_allrecipesview(page: ft.Page):
                             color=ft.colors.BLUE_500,
                             
                         ),
-                        difficultyFilter.build(),
+                        difficultyFilter.build(), #object
                     ],
                 ),
                 preptimeFilter.build(),
@@ -82,42 +95,19 @@ def get_allrecipesview(page: ft.Page):
         )
     )
 
-    Header = ft.Container(
-        width=440,
-        height=50,
-        margin=0,
-        padding=10,
-        content=ft.Row(
-            controls=[
-                ft.IconButton(
-                    icon=ft.icons.ARROW_BACK,
-                    icon_color=ft.colors.GREY_800,
-                    icon_size=25,
-                ),
-                ft.Text(
-                    value='All Recipes',
-                    size=25,
-                    style=ft.TextStyle(
-                        color= ft.colors.GREY_800,
-                        font_family=ft.FontWeight.BOLD
-                    )
-                )
-            ],
-            alignment=ft.CrossAxisAlignment.START,
-        )
-    )
+    allrecipeHeader = Header("All Recipes", page)
 
     return ft.View(
         route="/allrecipesview",
         controls=[
             ft.Column(
                 controls=[
-                    Header,
+                    allrecipeHeader.build(),
                     ft.Row(
-                        controls=[recipeSearchBar],
+                        controls=[recipeSearchBar], #object
                         alignment=ft.MainAxisAlignment.CENTER
                     ),
-                    FilterContainer,
+                    FilterContainer, 
                     ft.Divider(),
                     RecipeContainer,
                 ]

@@ -1,12 +1,6 @@
 import flet as ft 
 from flet import *
-
-import json 
-
-file_path = r'D:\SCHOOL\1STSEM_2NDYR\CMSC123\FINALPROJECT\projectFiles\recipesAll.json'
-with open(file_path, 'r') as file: 
-    recipes_data = json.load(file)
-    #recipe data has been loaded
+from config import json_path, recipes_data
 
 class Trie:
     class TrieNode:
@@ -134,7 +128,6 @@ class CustomSearchBar(ft.UserControl):
             self.__recipeList["value"] = self.recipeListReturn
             self.__display.updateRecipeCards(self.__recipeList)
             self.getrecipeListReturn()
-
 
         self.anchor = ft.SearchBar(
             view_elevation=4,
