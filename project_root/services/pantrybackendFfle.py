@@ -7,11 +7,12 @@ class Node:
         self.value = value
         self.next = None
 
-
 class PantryManager:
     def __init__(self):
         """Initialize with an empty linked list for pantry."""
         self.head = None
+        # Path to the pantry.json file inside the assets folder
+        self.json_path = os.path.join(os.path.dirname(__file__), "..", "assets", "pantry.json")
         self.load_from_json()
 
     @staticmethod
@@ -68,14 +69,14 @@ class PantryManager:
         pantry = []
         current = self.head
         while current:
-            pantry.append(current.value.capitalize())
+            pantry.append(current.value)
             current = current.next
         return pantry
 
     def load_from_json(self):
         """Load the pantry list from the JSON file."""
-        if os.path.exists("pantry.json"):
-            with open("pantry.json", "r") as file:
+        if os.path.exists(self.json_path):
+            with open(self.json_path, "r") as file:
                 pantry_data = json.load(file)
                 # Populate the linked list from the JSON data
                 for ingredient in pantry_data:
@@ -84,5 +85,5 @@ class PantryManager:
     def save_to_json(self):
         """Save the pantry list to the JSON file."""
         pantry_data = self.get_pantry_list()
-        with open("pantry.json", "w") as file:
+        with open(self.json_path, "w") as file:
             json.dump(pantry_data, file, indent=4)

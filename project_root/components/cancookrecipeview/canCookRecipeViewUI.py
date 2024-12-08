@@ -3,7 +3,10 @@ from flet import *
 from utils.searchBarUI import CustomSearchBar
 from utils.recipeCard import *
 from utils.filtersView import * 
-    
+from utils.header import Header
+from services.filters.filterReceiver import filterReceiver
+from config import updatePantryCaller, updateRecipeCaller
+
 #can cook Recipes
 def get_cancookrecipesview(page: ft.Page):
     page.title = "Can Cook Recipe View"
@@ -14,9 +17,34 @@ def get_cancookrecipesview(page: ft.Page):
     page.window.height = 956
     page.window.resizable = False
 
+    #these are to update in the case of adding a new recipe, adding to pantry, etc.
+    pantry_data = updatePantryCaller() #updates the pantry data 
+    recipes_data = updateRecipeCaller() #updates the recipe data
+
     #use a mutable object (dictionary) so that its value can be
     #carried over across the different files and classes
-    recipeListMutable = {"value": None}
+    recipeListMutable = {"value": recipes_data}
+    activeFilterListMutable = {"origin": [],
+                             "difficulty": [],
+                             "preptime": None} 
+    filteredRecipeListMutable = {"originrecipes": [],
+                             "difficultyrecipes": [],
+                             "preptimerecipes": []} 
+
+    def initializeCookableCards(recipeList):
+        recipeListCards = []
+        includedList = []
+        for recipe in recipeList['value']:
+            if all(ingredients in pantry_data for ingredients in recipe['ingredients']):
+                includedList.append(recipe)
+                newCard = RecipeCard(recipe)
+                recipeListCards.append(newCard.getCardView())
+        
+        recipeList['value'] = includedList
+
+        return recipeListCards
+
+    recipeListCards = initializeCookableCards(recipeListMutable)
 
     #Contians the cards for the recipes
     RecipeContainer = ft.Container(
@@ -28,19 +56,23 @@ def get_cancookrecipesview(page: ft.Page):
         content=ft.Column(
             scroll=ft.ScrollMode.ALWAYS,
             spacing=3,
+            controls=recipeListCards
             )
     )   
 
-    displayrecipes = DisplayRecipesfromSearch(RecipeContainer)
-    recipeSearchBar = CustomSearchBar(recipeListMutable, displayrecipes)
+    displayrecipes = DisplayRecipesfromSearch(RecipeContainer, filteredRecipeListMutable)
+    recipeSearchBar = CustomSearchBar(recipeListMutable, displayrecipes, activeFilterListMutable) #from file searchBar.py
     
     # for the filters 
+    #make the receiver
+    receiver = filterReceiver(activeFilterListMutable, recipeListMutable, filteredRecipeListMutable, displayrecipes)
+
     allfilteroptions = FilterOptions()
     originType = FilterType("Origin", allfilteroptions.getOriginOptions())
-    originFilter = SelectionFilter(originType)
+    originFilter = SelectionFilter(originType, receiver)
     difficultyType = FilterType("Difficulty", ["Easy", "Moderate", "Intermediate", "Advanced", "Expert"])
-    difficultyFilter = SelectionFilter(difficultyType)
-    preptimeFilter = SliderFilter()
+    difficultyFilter = SelectionFilter(difficultyType, receiver)
+    preptimeFilter = SliderFilter(receiver)
 
     # contains the dropdown for the filters
     FilterContainer = ft.Container(
@@ -91,38 +123,14 @@ def get_cancookrecipesview(page: ft.Page):
         )
     )
 
-    Header = ft.Container(
-        width=440,
-        height=50,
-        margin=0,
-        padding=0,
-        alignment=ft.alignment.bottom_center,
-        content=ft.Row(
-            controls=[
-                ft.IconButton(
-                    icon=ft.icons.ARROW_BACK,
-                    icon_color=ft.colors.GREY_800,
-                    icon_size=25,
-                ),
-                ft.Text(
-                    value='What You Can Cook',
-                    size=30,
-                    style=ft.TextStyle(
-                        color= ft.colors.GREY_800,
-                        weight=ft.FontWeight.BOLD,
-                    )
-                )
-            ],
-            alignment=ft.CrossAxisAlignment.START,
-        )
-    )
+    cancookrecipeHeader = Header("What you can cook", page)
 
-    return ft.View(
+    viewPage = ft.View(
         route="/cancookrecipesview",
         controls=[
             ft.Column(
                 controls=[
-                    Header,
+                    cancookrecipeHeader.build(),
                     ft.Divider(),
                     ft.Row(
                         controls=[recipeSearchBar],
@@ -135,3 +143,5 @@ def get_cancookrecipesview(page: ft.Page):
             )
         ]
     )
+
+    return viewPage

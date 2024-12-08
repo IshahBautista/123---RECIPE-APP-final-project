@@ -3,7 +3,10 @@ from flet import *
 from utils.searchBarUI import CustomSearchBar
 from utils.recipeCard import *
 from utils.filtersView import * 
-    
+from utils.header import Header
+from services.filters.filterReceiver import filterReceiver
+from config import updatePantryCaller, updateRecipeCaller
+
 #All Recipes
 def get_allrecipesview(page: ft.Page):
     page.title = "All Recipes View"
@@ -14,34 +17,57 @@ def get_allrecipesview(page: ft.Page):
     page.window.height = 956
     page.window.resizable = False
 
+    #these are to update in the case of adding a new recipe, adding to pantry, etc.
+    recipes_data = updateRecipeCaller() #updates the recipe data
+
     #use a mutable object (dictionary) so that its value can be
     #carried over across the different files and classes
-    recipeListMutable = {"value": None}
+    recipeListMutable = {"value": recipes_data}
+    activeFilterListMutable = {"origin": [],
+                             "difficulty": [],
+                             "preptime": None} 
+    filteredRecipeListMutable = {"originrecipes": [],
+                             "difficultyrecipes": [],
+                             "preptimerecipes": []} 
+
+
+    def initializeRecipeCards(recipeList):
+            recipeListCards = []
+            for recipe in recipeList["value"]:
+                newCard = RecipeCard(recipe)
+                recipeListCards.append(newCard.getCardView())
+            
+            return recipeListCards
+    
+    recipeListCards = initializeRecipeCards(recipeListMutable)
 
     #Contians the cards for the recipes
     RecipeContainer = ft.Container(
         width=400,
-        height=510,
+        height=540,
         padding=10,
         margin=2,
         border_radius=20,
-        bgcolor=ft.colors.GREY_200,
         content=ft.Column(
             scroll=ft.ScrollMode.ALWAYS,
             spacing=3,
+            controls=recipeListCards
             )
     )   
 
-    displayrecipes = DisplayRecipesfromSearch(RecipeContainer)
-    recipeSearchBar = CustomSearchBar(recipeListMutable, displayrecipes)
+    displayrecipes = DisplayRecipesfromSearch(RecipeContainer, filteredRecipeListMutable) #from file recipeCard.py
+    recipeSearchBar = CustomSearchBar(recipeListMutable, displayrecipes, activeFilterListMutable) #from file searchBar.py
     
     # for the filters 
+    #make the receiver
+    receiver = filterReceiver(activeFilterListMutable, recipeListMutable, filteredRecipeListMutable, displayrecipes)
+
     allfilteroptions = FilterOptions()
     originType = FilterType("Origin", allfilteroptions.getOriginOptions())
-    originFilter = SelectionFilter(originType)
+    originFilter = SelectionFilter(originType, receiver)
     difficultyType = FilterType("Difficulty", ["Easy", "Moderate", "Intermediate", "Advanced", "Expert"])
-    difficultyFilter = SelectionFilter(difficultyType)
-    preptimeFilter = SliderFilter()
+    difficultyFilter = SelectionFilter(difficultyType, receiver)
+    preptimeFilter = SliderFilter(receiver)
 
     # contains the dropdown for the filters
     FilterContainer = ft.Container(
@@ -60,7 +86,7 @@ def get_allrecipesview(page: ft.Page):
                             color=ft.colors.BLUE_500,
                             
                         ),
-                        originFilter.build(),
+                        originFilter.build(), #object
                     ],
                 ),
                 ft.Row(
@@ -71,10 +97,20 @@ def get_allrecipesview(page: ft.Page):
                             color=ft.colors.BLUE_500,
                             
                         ),
-                        difficultyFilter.build(),
+                        difficultyFilter.build(), #object
                     ],
                 ),
-                preptimeFilter.build(),
+                ft.Row(
+                    controls=[
+                        ft.Icon(
+                            ft.icons.TIMER,
+                            size=30,
+                            color=ft.colors.BLUE_500,
+                            
+                        ),
+                        preptimeFilter.build(),
+                    ],
+                ),
             ],
             spacing=2,
             alignment=ft.MainAxisAlignment.CENTER,
@@ -82,42 +118,19 @@ def get_allrecipesview(page: ft.Page):
         )
     )
 
-    Header = ft.Container(
-        width=440,
-        height=50,
-        margin=0,
-        padding=10,
-        content=ft.Row(
-            controls=[
-                ft.IconButton(
-                    icon=ft.icons.ARROW_BACK,
-                    icon_color=ft.colors.GREY_800,
-                    icon_size=25,
-                ),
-                ft.Text(
-                    value='All Recipes',
-                    size=25,
-                    style=ft.TextStyle(
-                        color= ft.colors.GREY_800,
-                        font_family=ft.FontWeight.BOLD
-                    )
-                )
-            ],
-            alignment=ft.CrossAxisAlignment.START,
-        )
-    )
+    allrecipeHeader = Header("All Recipes", page)
 
     return ft.View(
         route="/allrecipesview",
         controls=[
             ft.Column(
                 controls=[
-                    Header,
+                    allrecipeHeader.build(),
                     ft.Row(
-                        controls=[recipeSearchBar],
+                        controls=[recipeSearchBar], #object
                         alignment=ft.MainAxisAlignment.CENTER
                     ),
-                    FilterContainer,
+                    FilterContainer, 
                     ft.Divider(),
                     RecipeContainer,
                 ]

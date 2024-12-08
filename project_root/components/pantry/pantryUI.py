@@ -1,13 +1,14 @@
 import flet as ft
-from pantrybackendfile import PantryManager
+from services.pantrybackendFfle import PantryManager
+from utils.header import Header
 
-def main(page: ft.Page):
+def get_pantryview(page: ft.Page):
     page.title = "Pantry Manager"
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.theme_mode = ft.ThemeMode.LIGHT
-    page.window_width = 440
-    page.window_height = 956
-    page.window_resizable = False
+    page.window.width = 440
+    page.window.height = 956
+    page.window.resizable = False
 
     # Initialize PantryManager
     pantry_manager = PantryManager.create()
@@ -21,6 +22,7 @@ def main(page: ft.Page):
         expand=True,
         on_submit=lambda e: add_ingredient(None)  # Trigger add_ingredient on Enter
     )
+
     feedback_text = ft.Text("", size=14, color=ft.colors.DEEP_ORANGE_400)
 
     pantry_list = ft.ListView(
@@ -38,7 +40,7 @@ def main(page: ft.Page):
                 ft.Container(
                     content=ft.Row(
                         [
-                            ft.Text(item, size=16, expand=True),
+                            ft.Text(item.capitalize(), size=16, expand=True),
                             ft.IconButton(
                                 icon=ft.icons.CLOSE,
                                 icon_color=ft.colors.RED,
@@ -85,43 +87,50 @@ def main(page: ft.Page):
         feedback_text.value = ""
         feedback_text.update()
 
+    pantryHeader = Header("Pantry Manager", page)
+
     # Layout
-    page.add(
-        ft.Column(
-            [
-                ft.Text("Pantry Manager", size=28, weight="bold", text_align=ft.TextAlign.CENTER),
-                feedback_text,
-                ft.Row(
+    pantryPage = ft.View(
+        route="/pantryview",
+        controls=[
+                ft.Column(
                     [
-                        ingredient_input,
-                        ft.ElevatedButton(
-                            "Add",
-                            on_click=add_ingredient,
-                            bgcolor="green",
-                            color="white",
+                        pantryHeader.build(),
+
+                        feedback_text,
+
+                        ft.Row(
+                            [
+                                ingredient_input,
+                                ft.ElevatedButton(
+                                    "Add",
+                                    on_click=add_ingredient,
+                                    bgcolor="green",
+                                    color="white",
+                                ),
+                            ],
+                            alignment=ft.MainAxisAlignment.CENTER,
                         ),
+
+                        ft.Divider(height=20, thickness=2),
+
+                        ft.Text("Your Pantry", size=22, weight="bold"),
+                        
+                        ft.Container(
+                            content=pantry_list,
+                            bgcolor=ft.colors.LIGHT_GREEN_50,  
+                            border_radius=10,
+                            padding=10,
+                            height=460, 
+                            shadow=ft.BoxShadow(
+                                blur_radius=8, spread_radius=2, color=ft.colors.BLACK12
+                            ),
+                        ),
+
                     ],
-                    alignment=ft.MainAxisAlignment.CENTER,
-                ),
-                ft.Divider(height=20, thickness=2),
-                ft.Text("Your Pantry", size=22, weight="bold"),
-                ft.Container(
-                    content=pantry_list,
-                    bgcolor=ft.colors.LIGHT_GREEN_50,  
-                    border_radius=10,
-                    padding=10,
-                    height=460, 
-                    shadow=ft.BoxShadow(
-                        blur_radius=8, spread_radius=2, color=ft.colors.BLACK12
-                    ),
-                ),
-            ],
-            expand=True,
-        )
+                    expand=True,
+                )
+        ]
     )
 
-    update_pantry() # Update pantry on initialization
-
-ft.app(target=main)
-
-
+    return pantryPage

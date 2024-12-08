@@ -1,12 +1,6 @@
 import flet as ft 
 from flet import *
-
-import json 
-
-file_path = r'D:\SCHOOL\1STSEM_2NDYR\CMSC123\FINALPROJECT\projectFiles\recipesAll.json'
-with open(file_path, 'r') as file: 
-    recipes_data = json.load(file)
-    #recipe data has been loaded
+from config import json_path, recipes_data
 
 class Trie:
     class TrieNode:
@@ -112,29 +106,28 @@ class SearchResults:
 #This class is the search bar itself
 #It is connected to the display class and is dependent on it
 class CustomSearchBar(ft.UserControl):
-    def __init__(self, recipeList, display):
+    def __init__(self, recipeList, display, filterList):
         super().__init__()
         self.anchor = None  
         self.recipeListReturn = []
-        self.__recipeList = recipeList
+        self.filterList = filterList
+        self.__recipeList = recipeList #this is the mutable object 
         self.__display = display
 
-    def getrecipeListReturn(self):
+    def printRecipeList(self):
             for specificRecipe in self.recipeListReturn:
                 print(f"Name: {specificRecipe['name']}")
     
     def build(self):
-        searchresults = SearchResults()
+        searchresults = SearchResults() #an object that is used to find search results
 
         def handle_change(e: ControlEvent):
             searchresults.setSearchKey(e.data)
             print(f"handle_change e.data: {e.data}")
-            RecipeNameList = searchresults.findRecipes()
-            self.recipeListReturn = RecipeNameList
-            self.__recipeList["value"] = self.recipeListReturn
-            self.__display.updateRecipeCards(self.__recipeList)
-            self.getrecipeListReturn()
-
+            self.recipeListReturn = searchresults.findRecipes() #find the recipes based on input text
+            self.__recipeList["value"] = self.recipeListReturn #update the mutable object's contents
+            self.__display.updateRecipeCards(self.__recipeList) #update the recipe card in the passed display
+            self.printRecipeList()
 
         self.anchor = ft.SearchBar(
             view_elevation=4,
@@ -144,7 +137,8 @@ class CustomSearchBar(ft.UserControl):
             on_change=handle_change,
             bar_leading=ft.IconButton(icon="search"),
             controls=[],
-            width=400
+            width=400,
         )
+
         return self.anchor
 
