@@ -1,0 +1,2492 @@
+[
+    {
+        "name": "Colcannon Potatoes",
+        "origin": "Ireland",
+        "prep_time": 60,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "potatoes",
+            "cabbage",
+            "green onions",
+            "butter",
+            "bacon",
+            "parsley",
+            "milk",
+            "salt",
+            "pepper"
+        ],
+        "steps": [
+            "Prepare the cabbage: Place cabbage and 2 cups of water in a large saucepan. Bring to a boil, reduce heat, and simmer covered for about 10 minutes until tender. Drain the cabbage, reserving the cooking liquid. Keep cabbage warm in a separate dish.",
+            "Boil the potatoes: Combine potatoes with the reserved cabbage cooking liquid in the same saucepan. Add additional water to cover potatoes if necessary. Bring to a boil, reduce heat, and cook uncovered for 15-20 minutes until tender.",
+            "Heat the milk and green onions: In a small saucepan, combine milk, green onions, salt, and pepper. Bring just to a boil and remove from heat.",
+            "Assemble the colcannon: Drain the potatoes and mash in a large bowl. Add the milk mixture and mash until blended. Fold in the cabbage. To serve, drizzle with butter and top with bacon and parsley."
+        ],
+        "preprocessedname": "colcannonpotatoes",
+        "filename": "colcannonpotatoes.jpg"
+    },
+    {
+        "name": "Irish Spiced Beef",
+        "origin": "Ireland",
+        "prep_time": 260,
+        "difficulty": "Expert",
+        "ingredients": [
+            "beef brisket",
+            "brown sugar",
+            "coarse sea salt",
+            "chopped onion",
+            "bay leaves",
+            "pepper",
+            "dried rosemary",
+            "dried thyme",
+            "ground allspice",
+            "ground cloves",
+            "onions",
+            "carrots",
+            "celery",
+            "stout or beef broth",
+            "rye bread",
+            "Swiss cheese slices",
+            "Dijon mustard"
+        ],
+        "steps": [
+            "Rub beef with brown sugar. Refrigerate, covered, for 24 hours.",
+            "In a small bowl, mix coarse sea salt, chopped onion, bay leaves, and seasonings. Rub over beef and refrigerate, covered, for 3 days, turning and rubbing the mixture into the beef once each day.",
+            "Preheat oven to 325°F. Remove and discard the salt mixture.",
+            "Place beef, onions, carrots, celery, and stout in a roasting pan. Add water to come halfway up the brisket. Roast, covered, for 4-4.5 hours or until the meat is tender.",
+            "Cool the meat in the cooking juices for 1 hour.",
+            "Remove beef, discard the vegetables and cooking juices, and transfer beef to a 13x9-inch baking dish. Refrigerate, covered, overnight.",
+            "Cut the beef diagonally across the grain into thin slices. Serve with rye bread, Swiss cheese, and Dijon mustard."
+        ],
+        "preprocessedname": "irishspicedbeef",
+        "filename": "irishspicedbeef.jpg"
+    },
+    {
+        "name": "Scottish Oatmeal Rolls",
+        "origin": "Scotland",
+        "prep_time": 60,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "water",
+            "quick-cooking oats",
+            "butter",
+            "active dry yeast",
+            "warm water",
+            "brown sugar",
+            "sugar",
+            "salt",
+            "all-purpose flour"
+        ],
+        "steps": [
+            "In a large saucepan, bring water to a boil; add oats and butter. Cook and stir for 1 minute. Remove from heat and cool to lukewarm.",
+            "In a large bowl, dissolve yeast in warm water. Add the oat mixture, sugars, and salt. Mix in 4 cups of flour until smooth.",
+            "Add enough remaining flour to form a soft dough. Knead until smooth and elastic for 6-8 minutes.",
+            "Place dough in a greased bowl, turning once to grease the top. Cover and let rise in a warm place until doubled, about 1 hour.",
+            "Punch dough down and allow to rest for 10 minutes. Shape into 18 balls.",
+            "Place dough balls in 2 greased 9-inch round baking pans. Cover and let rise until doubled, about 45 minutes.",
+            "Preheat oven to 350°F. Bake rolls until golden brown, 20-25 minutes. Remove from pans to wire racks."
+        ],
+        "preprocessedname": "scottishoatmealrolls",
+        "filename": "scottishoatmealrolls.jpg"
+    },
+    {
+        "name": "Almond Tea Bread",
+        "origin": "Scotland",
+        "prep_time": 90,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "almond paste",
+            "butter",
+            "sugar",
+            "eggs",
+            "fresh pitted cherries or blueberries",
+            "all-purpose flour",
+            "baking powder",
+            "salt",
+            "whole milk"
+        ],
+        "steps": [
+            "In a large bowl, combine almond paste and butter; beat until well blended. Gradually add sugar, beating until light and fluffy. Add eggs, one at a time, beating well after each addition.",
+            "In a small bowl, gently toss cherries or blueberries and 1 tablespoon flour. Set aside.",
+            "Combine the baking powder, salt, remaining flour; add to the creamed mixture alternately with milk, beating well after each addition.",
+            "Spoon a sixth of the batter into each of two greased and floured 8x4-in. loaf pans; sprinkle layers with half of the fruit.",
+            "Cover with another layer of batter and sprinkle with the remaining fruit. Top with the remaining batter; smooth with a spatula.",
+            "Bake at 350°F until a toothpick inserted in the center comes out clean, about 1-1/4 hours.",
+            "Cool for 10 minutes before removing from pans to wire racks to cool."
+        ],
+        "preprocessedname": "almondteabread",
+        "filename": "almondteabread.jpg"
+    },
+    {
+        "name": "Rhubarb Crumble",
+        "origin": "England",
+        "prep_time": 75,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "sliced fresh or frozen rhubarb",
+            "diced peeled apples",
+            "sliced strawberries",
+            "sugar",
+            "ground cinnamon",
+            "all-purpose flour",
+            "baking powder",
+            "salt",
+            "cold butter",
+            "packed brown sugar",
+            "quick-cooking oats",
+            "vanilla ice cream (optional)"
+        ],
+        "steps": [
+            "Preheat oven to 350°F. Combine rhubarb, apples, and strawberries; spoon into a greased 8-in. square baking dish.",
+            "Combine sugar and cinnamon; sprinkle over rhubarb mixture. Set aside.",
+            "In a bowl, combine flour, baking powder, and salt. Cut in butter until mixture resembles coarse crumbs.",
+            "Stir in brown sugar and oats. Sprinkle over rhubarb mixture.",
+            "Bake at 350°F for 40-50 minutes or until lightly browned.",
+            "Serve warm or cold, with a scoop of ice cream if desired."
+        ],
+        "preprocessedname": "rhubarbcrumble",
+        "filename": "rhubarbcrumble.jpg"
+    },
+    {
+        "name": "Crispy Fish & Chips",
+        "origin": "United Kingdom",
+        "prep_time": 30,
+        "difficulty": "Easy",
+        "ingredients": [
+            "frozen steak fries",
+            "salmon fillets",
+            "prepared horseradish",
+            "grated Parmesan cheese",
+            "Worcestershire sauce",
+            "Dijon mustard",
+            "salt",
+            "panko bread crumbs",
+            "cooking spray"
+        ],
+        "steps": [
+            "Preheat oven to 450°F. Arrange steak fries in a single layer on a baking sheet. Bake on the lowest oven rack for 18-20 minutes or until light golden brown.",
+            "Meanwhile, place salmon on a foil-lined baking sheet coated with cooking spray.",
+            "In a small bowl, mix horseradish, cheese, Worcestershire sauce, mustard, and salt; stir in panko. Press the mixture onto fillets and spritz tops with cooking spray.",
+            "Bake salmon on the middle oven rack for 8-10 minutes or until fish just begins to flake easily with a fork.",
+            "Serve the salmon with fries."
+        ],
+        "preprocessedname": "crispyfishandchips",
+        "filename": "crispyfishandchips.jpg"
+    },
+    {
+        "name": "Potato Dumplings",
+        "origin": "Germany",
+        "prep_time": 50,
+        "difficulty": "Easy",
+        "ingredients": [
+            "Potatoes, peeled and quartered",
+            "All-purpose flour",
+            "Eggs, lightly beaten",
+            "Dry bread crumbs",
+            "Salt",
+            "Ground nutmeg",
+            "Water",
+            "Butter, cubed",
+            "Chopped onion",
+            "Toasted bread crumbs"
+        ],
+        "steps": [
+            "Place potatoes in a Dutch oven; add water to cover. Bring to a boil, reduce heat, and cook uncovered for 15-20 minutes or until tender. Drain and transfer to a large bowl.",
+            "Mash potatoes. Stir in flour, eggs, bread crumbs, salt, and nutmeg. Shape into 2-inch balls.",
+            "In a Dutch oven, bring water to a boil. Carefully add dumplings. Reduce heat and simmer uncovered for 7-9 minutes or until a toothpick inserted in the center of the dumplings comes out clean.",
+            "Meanwhile, in a small heavy saucepan, heat butter and onion over medium heat. Cook for 5-7 minutes or until butter is golden brown, stirring constantly. Remove from heat and stir in toasted bread crumbs.",
+            "Serve the dumplings with browned butter sauce."
+        ],
+        "preprocessedname": "potatodumplings",
+        "filename": "potatodumplings.jpg"
+    },
+    {
+        "name": "Oma's Apfelkuchen (Grandma's Apple Cake)",
+        "origin": "Germany",
+        "prep_time": 65,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "Egg yolks",
+            "Tart apples, peeled, cored and halved",
+            "Unsalted butter, softened",
+            "Sugar",
+            "All-purpose flour",
+            "Cornstarch",
+            "Cream of tartar",
+            "Baking powder",
+            "Salt",
+            "Milk",
+            "Confectioners' sugar"
+        ],
+        "steps": [
+            "Preheat oven to 350°. Let egg yolks stand at room temperature for 30 minutes.",
+            "Starting 1/2 in. from 1 end, cut apple halves lengthwise into slices, leaving them attached at the top so they fan out slightly.",
+            "Cream butter and sugar until light and fluffy, 5-7 minutes. Add egg yolks, one at a time, beating well after each addition.",
+            "In another bowl, sift flour, cornstarch, cream of tartar, baking powder, and salt twice. Gradually beat into the creamed mixture. Add milk and mix well (batter will be thick).",
+            "Spread batter into a greased springform pan wrapped in heavy-duty foil. Gently press apples, round side up, into batter.",
+            "Bake until a toothpick inserted in the center comes out with moist crumbs, 45-55 minutes. Cool on a wire rack for 10 minutes.",
+            "Loosen side from pan with a knife; remove foil. Cool for 1 hour longer. Remove the rim from the pan and dust with confectioners' sugar."
+        ],
+        "preprocessedname": "omasapfelkuchen",
+        "filename": "omasapfelkuchen.jpg"
+    },
+    {
+        "name": "Aebleskiver",
+        "origin": "Denmark",
+        "prep_time": 25,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "Eggs, separated",
+            "Buttermilk",
+            "All-purpose flour",
+            "Baking soda",
+            "Salt",
+            "Ground cinnamon",
+            "Peaches, peeled and chopped",
+            "Confectioners' sugar"
+        ],
+        "steps": [
+            "In a large bowl, whisk egg yolks and buttermilk until blended.",
+            "In another bowl, whisk together flour, baking soda, salt, and cinnamon. Stir the dry mixture into the egg mixture just until moistened.",
+            "In a small bowl, beat egg whites on high speed until stiff but not dry. With a rubber spatula, gently stir a quarter of the egg whites into the batter, then fold in the remaining egg whites.",
+            "Place a greased aebleskiver pan over medium heat. In batches, pour 1 tablespoon of batter into each cup. Top with a piece of peach and another tablespoon of batter.",
+            "Cook until bubbles on top begin to pop and bottoms are golden brown. Turn and cook until the second side is golden brown. Serve warm with confectioners' sugar."
+        ],
+        "preprocessedname": "aebleskiver",
+        "filename": "aebleskiver.jpg"
+    },
+    {
+        "name": "Sparkling Peach Bellinis",
+        "origin": "Unknown",
+        "prep_time": 35,
+        "difficulty": "Easy",
+        "ingredients": [
+            "Peaches, halved",
+            "Honey",
+            "Peach nectar, chilled",
+            "Champagne or sparkling grape juice, chilled"
+        ],
+        "steps": [
+            "Preheat oven to 375°F. Line a baking sheet with a large piece of heavy-duty foil (about 18x12 inches).",
+            "Place peach halves, cut sides up, on the foil and drizzle with honey. Fold the foil over the peaches and seal.",
+            "Bake for 25-30 minutes or until tender. Cool completely, then remove and discard peels.",
+            "In a food processor, process the peaches until smooth.",
+            "Transfer the peach puree to a pitcher. Add the peach nectar and 1 bottle of champagne; stir until combined.",
+            "Pour into 12 champagne flutes or wine glasses, topping each with the remaining champagne. Serve immediately."
+        ],
+        "preprocessedname": "sparklingpeachbellinis",
+        "filename": "sparklingpeachbellinis.jpg"
+    },
+    {
+        "name": "Italian Pasta Sauce",
+        "origin": "Italy",
+        "prep_time": 145,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "Ground beef",
+            "Bulk Italian sausage",
+            "Onion, finely chopped",
+            "Celery ribs, finely chopped",
+            "Garlic cloves, minced",
+            "Olive oil",
+            "Crushed tomatoes in puree",
+            "Tomato paste",
+            "Chicken or beef broth",
+            "Fresh mushrooms, sliced",
+            "Minced fresh parsley",
+            "Sugar",
+            "Salt",
+            "Pepper",
+            "Ground allspice (optional)",
+            "Hot cooked pasta"
+        ],
+        "steps": [
+            "In a Dutch oven or soup kettle, cook and crumble beef in 2 batches over medium heat until no longer pink; drain and set aside.",
+            "Cook and crumble sausage over medium heat until no longer pink; drain and set aside.",
+            "In the same pan, sauté onion, celery, and garlic in olive oil until vegetables are tender.",
+            "Return the beef and sausage to the pan.",
+            "Add crushed tomatoes, tomato paste, broth, mushrooms, parsley, sugar, salt, pepper, and allspice if desired. Bring to a boil.",
+            "Reduce heat, cover, and simmer for 2-3 hours, stirring occasionally, until the sauce reaches the desired thickness.",
+            "Serve over hot cooked pasta."
+        ],
+        "preprocessedname": "italianpastasauce",
+        "filename": "italianpastasauce.jpg"
+    },
+    {
+        "name": "Hazelnut Macarons",
+        "origin": "France",
+        "prep_time": 75,
+        "difficulty": "Expert",
+        "ingredients": [
+            "Almond flour",
+            "Confectioners' sugar",
+            "Egg whites, room temperature",
+            "Salt",
+            "Superfine sugar",
+            "Unsalted butter, softened",
+            "Heavy whipping cream",
+            "Vanilla extract"
+        ],
+        "steps": [
+            "Place almond flour and 1-3/4 cups confectioners sugar in a food processor; pulse until thoroughly mixed to ensure flour is very fine. Pass flour mixture through a fine-mesh sieve; discard any large pieces that remain.",
+            "Place egg whites and salt in a clean bowl of a stand mixer fitted with a whisk attachment; whisk on medium-low speed until frothy. Slowly add superfine sugar; whisk for 1-2 minutes or until dissolved. Slowly add remaining 1/2 cup confectioners sugar; increase speed to high and whip until meringue is glossy and stiff peaks form, 1-2 minutes.",
+            "Gently fold almond flour mixture into meringue, a third at a time. Using side of a spatula, smooth batter up side of bowl several times to remove air bubbles and ensure there are no lumps; do not overmix. Run spatula down center of bowl; the line in batter should remain visible for a moment before mixture runs back into itself.",
+            "Position rack in upper third of oven; preheat oven to 300°. Transfer batter into a pastry bag fitted with a #7 or #10 round tip. Pipe 1-3/8-in. rounds onto a parchment-lined tray about 1 in. apart. Tap tray against counter 2-3 times to remove excess air bubbles. Let macarons rest until no longer wet or sticky to the touch, 30-60 minutes.",
+            "Bake, 1 tray at a time, until cookies rise about 1/8 in. to form 'feet,' 14-16 minutes, rotating tray halfway through baking. Remove tray and let macarons cool completely; repeat with remaining trays. Once macarons have cooled completely, remove from parchment.",
+            "To make the filling, cream butter in a stand mixer fitted with whisk attachment; slowly add confectioners' sugar until incorporated. Add cream, vanilla, and salt; mix until smooth. Pour frosting into a pastry bag fitted with a small round tip; pipe buttercream onto bottoms of half the macarons. Top with remaining macaron shells.",
+            "Refrigerate, covered, until ready to serve.",
+            "Strawberry Variation: For macaron shells, add pink gel food coloring (do not use liquid food coloring) to whipped meringue until desired color is reached. For filling, add 1 tablespoon strawberry powder to confectioners' sugar. Pipe a circle of frosting onto bottoms of half the macaron shells. Place 1/4 teaspoon strawberry jam in center of each frosting circle. Top with remaining macaron shells.",
+            "Chocolate Variation: For macaron shells, add 2 tablespoons dark cocoa powder to almond flour and confectioners' sugar before sifting."
+        ],
+        "preprocessedname": "hazelnutmacarons",
+        "filename": "hazelnutmacarons.jpg"
+    },
+    {
+        "name": "Cassoulet for Today",
+        "origin": "France",
+        "prep_time": 95,
+        "difficulty": "Advanced",
+        "ingredients": [
+            "Boneless skinless chicken thighs (about 1-1/2 pounds)",
+            "Salt",
+            "Coarsely ground pepper",
+            "Olive oil",
+            "Large onion, chopped",
+            "Garlic clove, minced",
+            "White wine or chicken broth",
+            "Diced tomatoes",
+            "Bay leaf",
+            "Minced fresh rosemary or dried rosemary",
+            "Minced fresh thyme or dried thyme",
+            "Cannellini beans",
+            "Smoked turkey kielbasa, chopped",
+            "Bacon strips, cooked and crumbled",
+            "Soft whole wheat bread crumbs",
+            "Minced fresh parsley"
+        ],
+        "steps": [
+            "Preheat oven to 325°. Sprinkle chicken with salt and pepper.",
+            "In a broiler-safe Dutch oven, heat 2 teaspoons oil over medium heat; brown chicken on both sides. Remove from pan.",
+            "In the same pan, saute onion in the remaining oil over medium heat until crisp-tender. Add garlic; cook 1 minute.",
+            "Add wine; bring to a boil, stirring to loosen browned bits from pan.",
+            "Add diced tomatoes, herbs, and chicken; return to a boil.",
+            "Transfer to oven; bake, covered, 30 minutes.",
+            "Stir in beans and smoked turkey kielbasa; bake, covered, until chicken is tender, 20-25 minutes longer.",
+            "Remove from oven; preheat broiler.",
+            "Discard bay leaf; stir in crumbled bacon.",
+            "Toss bread crumbs with parsley and minced garlic; sprinkle over the top.",
+            "Place in oven so the surface of cassoulet is 4-5 inches from the heat; broil until crumbs are golden brown, 2-3 minutes."
+        ],
+        "preprocessedname": "cassouletfortoday",
+        "filename": "cassouletfortoday.jpg"
+    },
+    {
+        "name": "Finnish Salmon and Dill Pie",
+        "origin": "Finland",
+        "prep_time": 50,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "Butter",
+            "Finely chopped green onions",
+            "Flaked smoked salmon fillets",
+            "Snipped fresh dill",
+            "Dough for single-crust pie",
+            "Large eggs",
+            "Half-and-half cream",
+            "All-purpose flour",
+            "Salt",
+            "Ground nutmeg",
+            "Ground pepper",
+            "Shredded Swiss cheese"
+        ],
+        "steps": [
+            "Preheat oven to 400°.",
+            "In a small skillet, melt butter over medium heat.",
+            "Add green onions; cook and stir until crisp-tender, about 3 minutes.",
+            "Remove from heat. Gently stir in salmon and dill; set aside.",
+            "On a lightly floured surface, roll dough to a 1/8-in.-thick circle.",
+            "Transfer rolled dough to a 9-in. pie plate. Trim crust to 1/2 in. beyond rim of plate; flute edge.",
+            "Spoon salmon mixture into crust.",
+            "In a small bowl, whisk eggs, cream, flour, and seasonings until blended; pour over the top.",
+            "Sprinkle with shredded Swiss cheese.",
+            "Bake on a lower oven rack until a knife inserted in center comes out clean, 35-40 minutes.",
+            "Cover edge loosely with foil during the last 10 minutes if needed to prevent overbrowning.",
+            "Remove foil and let stand for 10 minutes before cutting."
+        ],
+        "preprocessedname": "finnishsalmonanddillpie",
+        "filename": "finnishsalmonanddillpie.jpg"
+    },
+    {
+        "name": "Lemon & Dill Shrimp Sandwiches",
+        "origin": "Norway",
+        "prep_time": 20,
+        "difficulty": "Easy",
+        "ingredients": [
+            "Hoagie buns, split",
+            "Butter",
+            "Uncooked shrimp (41-50 per pound), peeled and deveined",
+            "Mayonnaise",
+            "Lemon juice",
+            "Snipped fresh dill or dill weed",
+            "Salt",
+            "Ground pepper",
+            "Lettuce leaves (optional)",
+            "Sliced tomato (optional)"
+        ],
+        "steps": [
+            "Hollow out bun bottoms, leaving a 1/2-in. shell (save removed bread for another use).",
+            "In a large skillet, heat butter over medium heat.",
+            "Add shrimp; cook and stir 3-4 minutes or until shrimp turn pink.",
+            "In a small bowl, mix mayonnaise, lemon juice, dill, salt, and pepper until blended.",
+            "Add shrimp to the bowl and toss to coat.",
+            "Spoon shrimp mixture into bun bottoms.",
+            "If desired, top with lettuce and tomato.",
+            "Replace bun tops."
+        ],
+        "preprocessedname": "lemonanddillshrimp",
+        "filename": "lemonanddillshrimp.jpg"
+    },
+    {
+        "name": "Crispy Norwegian Bows",
+        "origin": "Norway",
+        "prep_time": 30,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "Large egg yolks, room temperature",
+            "Sugar",
+            "Heavy whipping cream",
+            "Ground cardamom",
+            "All-purpose flour",
+            "Oil for deep-fat frying",
+            "Confectioners' sugar"
+        ],
+        "steps": [
+            "Beat egg yolks and sugar until pale yellow.",
+            "Add cream and ground cardamom; mix well.",
+            "Gradually add flour until dough is firm enough to roll.",
+            "On a lightly floured surface, roll dough into a 15-in. square.",
+            "Using a pastry wheel or knife, cut dough into 15x1-1/2-in. strips; cut diagonally at 2-1/2-in. intervals.",
+            "In the center of each diamond, make a 1-in. slit; pull one end through the slit.",
+            "In an electric skillet or deep-fat fryer, heat oil to 375°.",
+            "Fry bows, a few at a time, until golden brown on both sides, 20-40 seconds.",
+            "Drain on paper towels.",
+            "Dust with confectioners' sugar."
+        ],
+        "preprocessedname": "crispynorwegianbows",
+        "filename": "crispynorwegianbows.jpg"
+    },
+    {
+        "name": "Swedish Meatballs",
+        "origin": "Sweden",
+        "prep_time": 70,
+        "difficulty": "Advanced",
+        "ingredients": [
+            "Seasoned bread crumbs",
+            "Medium onion, chopped",
+            "Large eggs, lightly beaten",
+            "Minced fresh parsley",
+            "Coarsely ground pepper",
+            "Salt",
+            "Ground beef",
+            "All-purpose flour",
+            "2% milk",
+            "Condensed beef consomme, undiluted",
+            "Worcestershire sauce",
+            "Ground allspice (optional)",
+            "Ground nutmeg (optional)",
+            "Egg noodles",
+            "Butter",
+            "Minced fresh parsley"
+        ],
+        "steps": [
+            "In a large bowl, combine the first 6 ingredients. Add beef; mix lightly but thoroughly.",
+            "Shape into 1-1/2-in. meatballs (about 36).",
+            "In a large skillet over medium heat, brown meatballs in batches.",
+            "Using a slotted spoon, remove to paper towels to drain, reserving drippings in pan.",
+            "For gravy, stir flour into drippings; cook over medium-high heat until light brown (do not burn).",
+            "Gradually whisk in milk until smooth.",
+            "Stir in consomme, Worcestershire sauce, pepper, salt, and allspice and nutmeg if desired.",
+            "Bring to a boil over medium-high heat; cook and stir until thickened, about 2 minutes.",
+            "Reduce heat to medium-low; return meatballs to pan.",
+            "Cook, uncovered, until meatballs are cooked through, 15-20 minutes longer, stirring occasionally.",
+            "Meanwhile, cook noodles according to package directions.",
+            "Drain; toss with butter.",
+            "Serve with meatball mixture; sprinkle with parsley."
+        ],
+        "preprocessedname": "swedishmeatballs",
+        "filename": "swedishmeatballs.jpg"
+    },
+    {
+        "name": "Swedish Cream Apple Rings",
+        "origin": "Sweden",
+        "prep_time": 45,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "Active dry yeast",
+            "Warm water (110° to 115°)",
+            "All-purpose flour",
+            "Sugar",
+            "Salt",
+            "Cold butter, cubed",
+            "Heavy whipping cream (110° to 115°)",
+            "Evaporated milk (110° to 115°)",
+            "Large egg yolks",
+            "Finely chopped peeled apples",
+            "Raisins",
+            "Cinnamon-sugar",
+            "Confectioners' sugar",
+            "Vanilla extract",
+            "2% milk"
+        ],
+        "steps": [
+            "In a small bowl, dissolve yeast in warm water.",
+            "In a large bowl, combine the flour, sugar, and salt.",
+            "Cut in butter until crumbly.",
+            "Add the yeast mixture, cream, milk, and egg yolks; stir until the mixture forms a soft dough.",
+            "Cover and refrigerate overnight.",
+            "In a small bowl, combine the filling ingredients (apples, raisins, cinnamon-sugar).",
+            "Punch down dough; divide in half.",
+            "On a lightly floured surface, roll out 1 portion into a 13x7-in. rectangle.",
+            "Sprinkle with half of the filling mixture.",
+            "Roll up jelly-roll style, starting with a long side. Pinch seam to seal.",
+            "Place seam side down on a greased baking sheet; pinch ends together to form a ring.",
+            "Repeat with remaining dough and filling.",
+            "Cover and let rise in a warm place for about 45 minutes.",
+            "Bake at 375° until golden brown, 25-30 minutes.",
+            "Remove from pans to wire racks to cool.",
+            "Combine the confectioners' sugar, vanilla, and enough milk to reach a drizzling consistency.",
+            "Drizzle over warm rings."
+        ],
+        "preprocessedname": "swedishcreamapplerings",
+        "filename": "swedishcreamapplerings.jpg"
+    },
+    {
+        "name": "Dutch Letters",
+        "origin": "Netherlands",
+        "prep_time": 80,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "Almond paste",
+            "Sugar",
+            "Large egg",
+            "Lemon extract",
+            "All-purpose flour",
+            "Salt",
+            "Cold butter",
+            "Ice water",
+            "Large egg white",
+            "Water"
+        ],
+        "steps": [
+            "In a large bowl, beat the almond paste, sugar, egg, and extract until smooth. Divide into 4 portions.",
+            "On lightly floured waxed paper, roll each portion into a 12x1/2-in. rope; set aside.",
+            "In a large bowl, combine flour and salt; cut in butter until crumbly.",
+            "Gradually add water, tossing with a fork until dough forms a ball. Divide into 4 portions.",
+            "On a lightly floured surface, roll out each portion into a 14x6-in. rectangle.",
+            "Place 1 almond paste rope in the center of each rectangle.",
+            "Moisten long edges of dough; fold over filling. Press seam to seal; tuck in ends.",
+            "Transfer seam side down to greased baking sheets; form each into an 'S' shape.",
+            "Whisk egg white and water; brush over dough.",
+            "Using a fork, prick tops at 1-in. intervals to vent.",
+            "Bake at 350° for 30-35 minutes or until golden brown.",
+            "Cool on wire racks.",
+            "To serve, cut into 2-in. pieces."
+        ],
+        "preprocessedname": "dutchletters",
+        "filename": "dutchletters.jpg"
+    },
+    {
+        "name": "Dutch Baby Pancake with Strawberry-Almond Compote",
+        "origin": "Netherlands",
+        "prep_time": 35,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "butter",
+            "large eggs",
+            "milk",
+            "orange zest",
+            "almond extract",
+            "all-purpose flour",
+            "sugar",
+            "kosher salt",
+            "fresh strawberries",
+            "slivered almonds",
+            "orange juice"
+        ],
+        "steps": [
+            "Preheat oven to 400°. Place butter in a 9-in. pie plate. Place in oven for 4-5 minutes or until butter is melted; carefully swirl to coat evenly.",
+            "In a large bowl, whisk eggs, milk, orange zest and extract until blended.",
+            "Whisk in flour, sugar and salt.",
+            "Pour mixture into hot pie plate.",
+            "Bake 20-25 minutes or until puffed and sides are golden brown and crisp.",
+            "In a small bowl, combine topping ingredients.",
+            "Remove pancake from oven; serve immediately with topping."
+        ],
+        "preprocessedname": "dutchbabywithstrawberrycompote",
+        "filename": "dutchbabywithstrawberrycompote.jpg"
+    },
+    {
+        "name": "Belgian Waffles",
+        "origin": "Belgium",
+        "prep_time": 30,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "flour",
+            "eggs",
+            "milk",
+            "butter",
+            "sugar",
+            "yeast"
+        ],
+        "steps": [
+            "Mix flour, sugar, and yeast.",
+            "Add eggs, milk, and melted butter to form batter.",
+            "Let batter rise for 1 hour.",
+            "Cook in a waffle iron until golden.",
+            "Serve with toppings of choice."
+        ],
+        "preprocessedname": "belgianwaffles",
+        "filename": "belgianwaffles.jpg"
+    },
+    {
+        "name": "Rabanadas (Portuguese French Toast)",
+        "origin": "Portugal",
+        "prep_time": 20,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "bread",
+            "milk",
+            "eggs",
+            "sugar",
+            "cinnamon",
+            "butter"
+        ],
+        "steps": [
+            "Cut bread into thick slices.",
+            "Soak slices in milk and beaten eggs.",
+            "Fry in butter until golden brown.",
+            "Coat with sugar and cinnamon before serving."
+        ],
+        "preprocessedname": "rabanadasportuguesefrenchtoast",
+        "filename": "rabanadasportuguesefrenchtoast.jpg"
+    },
+    {
+        "name": "Chicken Paella",
+        "origin": "Spain",
+        "prep_time": 55,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "chicken",
+            "arborio rice",
+            "turmeric",
+            "onions",
+            "garlic",
+            "tomatoes",
+            "broth"
+        ],
+        "steps": [
+            "Brown chicken in a large skillet.",
+            "Sauté onions, garlic, and tomatoes until soft.",
+            "Add rice and turmeric, then mix well.",
+            "Pour in broth and simmer until rice is cooked.",
+            "Serve hot with chicken on top."
+        ],
+        "preprocessedname": "chickenpaella",
+        "filename": "chickenpaella.jpg"
+    },
+    {
+        "name": "Patatas Bravas",
+        "origin": "Spain",
+        "prep_time": 40,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "potatoes",
+            "smoked paprika",
+            "garlic",
+            "tomato paste",
+            "olive oil",
+            "aioli"
+        ],
+        "steps": [
+            "Dice and fry potatoes until crispy.",
+            "Make a smoky sauce with tomato paste, garlic, and smoked paprika.",
+            "Drizzle garlic aioli over potatoes and sauce before serving."
+        ],
+        "preprocessedname": "patatasbravas",
+        "filename": "patatasbravas.jpg"
+    },
+    {
+        "name": "Nana's Italian Roulade",
+        "origin": "Italy",
+        "prep_time": 60,
+        "difficulty": "Advanced",
+        "ingredients": [
+            "steak",
+            "bread crumbs",
+            "parsley",
+            "garlic",
+            "cheese",
+            "tomato sauce"
+        ],
+        "steps": [
+            "Pound steak flat and season.",
+            "Spread filling of bread crumbs, parsley, garlic, and cheese.",
+            "Roll up steak and secure with toothpicks.",
+            "Bake in tomato sauce until tender."
+        ],
+        "preprocessedname": "nanasitalianroulade",
+        "filename": "nanasitalianroulade.jpg"
+    },
+    {
+        "name": "Cuccidati",
+        "origin": "Italy",
+        "prep_time": 40,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "figs",
+            "dates",
+            "raisins",
+            "nuts",
+            "spices",
+            "cookie dough"
+        ],
+        "steps": [
+            "Mix figs, dates, raisins, nuts, and spices to form a filling.",
+            "Roll out cookie dough and fill with the mixture.",
+            "Shape into logs and slice into cookies.",
+            "Bake until golden and let cool."
+        ],
+        "preprocessedname": "cuccidati",
+        "filename": "cuccidati.jpg"
+    },
+    {
+        "name": "Kourambiethes",
+        "origin": "Greece",
+        "prep_time": 55,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "butter",
+            "powdered sugar",
+            "almonds",
+            "flour",
+            "vanilla"
+        ],
+        "steps": [
+            "Cream butter and powdered sugar together.",
+            "Mix in almonds, flour, and vanilla to form dough.",
+            "Shape into cookies and bake until lightly golden.",
+            "Dust with powdered sugar before serving."
+        ],
+        "preprocessedname": "kourambiethes",
+        "filename": "kourambiethes.jpg"
+    },
+    {
+        "name": "Pandan Chiffon Cake",
+        "origin": "Philippines",
+        "prep_time": 60,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "flour",
+            "sugar",
+            "baking powder",
+            "pandan extract",
+            "eggs",
+            "vegetable oil",
+            "coconut milk"
+        ],
+        "steps": [
+            "Preheat the oven to 350°F (175°C).",
+            "In a mixing bowl, combine dry ingredients (flour, sugar, baking powder).",
+            "In another bowl, whisk eggs and add pandan extract, oil, and coconut milk.",
+            "Combine the wet and dry ingredients until smooth.",
+            "Pour batter into a chiffon cake pan and bake for 45-50 minutes.",
+            "Cool before serving."
+        ],
+        "preprocessedname": "pandanchiffoncake",
+        "filename": "pandanchiffoncake.jpg"
+    },
+    {
+        "name": "Traditional Filipino Lumpia",
+        "origin": "Philippines",
+        "prep_time": 50,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "ground pork",
+            "carrots",
+            "green beans",
+            "onions",
+            "garlic",
+            "spring roll wrappers",
+            "soy sauce",
+            "pepper"
+        ],
+        "steps": [
+            "Sauté garlic and onions in a large pan.",
+            "Add ground pork and cook until browned.",
+            "Stir in carrots, green beans, soy sauce, and pepper.",
+            "Remove mixture from heat and cool.",
+            "Place mixture into spring roll wrappers and roll tightly.",
+            "Fry until golden brown."
+        ],
+        "preprocessedname": "traditionalfilipinolumpia",
+        "filename": "traditionalfilipinolumpia.jpg"
+    },
+    {
+        "name": "Chicken Arroz Caldo (Chicken Rice Porridge)",
+        "origin": "Philippines",
+        "prep_time": 40,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "chicken",
+            "rice",
+            "ginger",
+            "garlic",
+            "onions",
+            "fish sauce",
+            "green onions",
+            "lemon"
+        ],
+        "steps": [
+            "Sauté ginger, garlic, and onions in a pot.",
+            "Add chicken pieces and cook until lightly browned.",
+            "Add rice and stir.",
+            "Pour in water and fish sauce.",
+            "Simmer until rice is soft and porridge is thickened.",
+            "Garnish with green onions and lemon."
+        ],
+        "preprocessedname": "chickenarrozcaldo",
+        "filename": "chickenarrozcaldo.jpg"
+    },
+    {
+        "name": "Quick and Easy Pancit",
+        "origin": "Philippines",
+        "prep_time": 30,
+        "difficulty": "Easy",
+        "ingredients": [
+            "rice noodles",
+            "chicken",
+            "carrots",
+            "cabbage",
+            "soy sauce",
+            "garlic",
+            "onions"
+        ],
+        "steps": [
+            "Sauté garlic and onions until fragrant.",
+            "Add chicken pieces and cook until browned.",
+            "Add vegetables and stir-fry until tender.",
+            "Add rice noodles and soy sauce.",
+            "Toss well until noodles are cooked through."
+        ],
+        "preprocessedname": "quickandeasypancit",
+        "filename": "quickandeasypancit.jpg"
+    },
+    {
+        "name": "Chicken Tinola",
+        "origin": "Philippines",
+        "prep_time": 45,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "chicken",
+            "green papaya",
+            "ginger",
+            "garlic",
+            "onions",
+            "fish sauce",
+            "spinach"
+        ],
+        "steps": [
+            "Sauté garlic, ginger, and onions in a pot.",
+            "Add chicken and cook until lightly browned.",
+            "Add fish sauce and pour water into the pot.",
+            "Add green papaya and simmer until tender.",
+            "Stir in spinach and cook until wilted."
+        ],
+        "preprocessedname": "chickentinola",
+        "filename": "chickentinola.jpg"
+    },
+    {
+        "name": "Famous Chicken Adobo",
+        "origin": "Philippines",
+        "prep_time": 60,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "chicken",
+            "vinegar",
+            "soy sauce",
+            "garlic",
+            "onions",
+            "bay leaves",
+            "pepper"
+        ],
+        "steps": [
+            "Sauté garlic and onions in a pot.",
+            "Add chicken and cook until browned.",
+            "Pour vinegar, soy sauce, and bay leaves over chicken.",
+            "Simmer for 30 minutes.",
+            "Season with pepper and adjust seasoning as needed."
+        ],
+        "preprocessedname": "famouschickenadobo",
+        "filename": "famouschickenadobo.jpg"
+    },
+    {
+        "name": "Lumpia (Shanghai Version)",
+        "origin": "Philippines",
+        "prep_time": 40,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "ground pork",
+            "carrots",
+            "green beans",
+            "garlic",
+            "onions",
+            "spring roll wrappers",
+            "soy sauce",
+            "pepper"
+        ],
+        "steps": [
+            "Sauté garlic and onions in a large pan.",
+            "Add ground pork, carrots, and green beans.",
+            "Stir in soy sauce and pepper.",
+            "Cool mixture and place in spring roll wrappers.",
+            "Fry until crispy and golden brown."
+        ],
+        "preprocessedname": "lumpiashanghai",
+        "filename": "lumpiashanghai.jpg"
+    },
+    {
+        "name": "Sinigang na Bangus (Filipino Milkfish in Tamarind Broth)",
+        "origin": "Philippines",
+        "prep_time": 50,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "milkfish",
+            "tamarind paste",
+            "tomatoes",
+            "onions",
+            "radish",
+            "green beans",
+            "fish sauce"
+        ],
+        "steps": [
+            "Boil tamarind paste with water to make broth.",
+            "Sauté onions and tomatoes in a large pot.",
+            "Add fish pieces and pour in tamarind broth.",
+            "Add green beans and radish.",
+            "Simmer until fish is tender."
+        ],
+        "preprocessedname": "sinigangnabangus",
+        "filename": "sinigangnabangus.jpg"
+    },
+    {
+        "name": "Leche Flan",
+        "origin": "Philippines",
+        "prep_time": 60,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "condensed milk",
+            "evaporated milk",
+            "egg yolks",
+            "sugar",
+            "vanilla"
+        ],
+        "steps": [
+            "Caramelize sugar in a flan mold over medium heat.",
+            "Mix condensed milk, evaporated milk, egg yolks, and vanilla.",
+            "Pour mixture over caramelized sugar in the mold.",
+            "Steam for 30-45 minutes or bake until set.",
+            "Cool and invert onto a plate."
+        ],
+        "preprocessedname": "lecheflan",
+        "filename": "lecheflan.jpg"
+    },
+    {
+        "name": "Charoset",
+        "origin": "Jewish Passover",
+        "prep_time": 15,
+        "difficulty": "Easy",
+        "ingredients": [
+            "apples",
+            "walnuts",
+            "spices"
+        ],
+        "steps": [
+            "Chop the apples and walnuts.",
+            "Combine chopped apples, walnuts, and spices in a bowl.",
+            "Mix until well combined."
+        ],
+        "preprocessedname": "charoset",
+        "filename": "charoset.jpg"
+    },
+    {
+        "name": "Malfouf",
+        "origin": "Lebanon",
+        "prep_time": 60,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "cabbage",
+            "rice",
+            "ground meat",
+            "spices"
+        ],
+        "steps": [
+            "Prepare the rice and meat mixture with spices.",
+            "Stuff cabbage leaves with the rice and meat mixture.",
+            "Roll the cabbage leaves tightly.",
+            "Cook the rolls until tender."
+        ],
+        "preprocessedname": "malfouf",
+        "filename": "malfouf.jpg"
+    },
+    {
+        "name": "Tabouleh",
+        "origin": "Lebanon",
+        "prep_time": 20,
+        "difficulty": "Easy",
+        "ingredients": [
+            "bulgur wheat",
+            "tomatoes",
+            "cucumbers",
+            "mint leaves",
+            "onion",
+            "lemon juice",
+            "olive oil"
+        ],
+        "steps": [
+            "Cook bulgur wheat as per package instructions.",
+            "Chop tomatoes, cucumbers, onions, and mint leaves.",
+            "Mix the bulgur with the vegetables.",
+            "Dress the salad with lemon juice and olive oil.",
+            "Toss until well combined."
+        ],
+        "preprocessedname": "tabouleh",
+        "filename": "tabouleh.jpg"
+    },
+    {
+        "name": "Rose Water Rice Pudding",
+        "origin": "Lebanon",
+        "prep_time": 40,
+        "difficulty": "Easy",
+        "ingredients": [
+            "rice",
+            "milk",
+            "sugar",
+            "rose water",
+            "pomegranate seeds",
+            "pistachios"
+        ],
+        "steps": [
+            "Cook rice with milk and sugar until creamy.",
+            "Add rose water to the cooked rice pudding.",
+            "Garnish with pomegranate seeds and pistachios.",
+            "Serve warm or chilled."
+        ],
+        "preprocessedname": "rosewaterricepudding",
+        "filename": "rosewaterricepudding.jpg"
+    },
+    {
+        "name": "Lehmejun",
+        "origin": "Armenia",
+        "prep_time": 35,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "flour tortillas",
+            "ground meat",
+            "tomato paste",
+            "onion",
+            "spices"
+        ],
+        "steps": [
+            "Prepare the meat mixture with tomato paste, onion, and spices.",
+            "Place the meat mixture over flour tortillas.",
+            "Bake until the tortillas are crispy and meat is cooked."
+        ],
+        "preprocessedname": "lehmejun",
+        "filename": "lehmejun.jpg"
+    },
+    {
+        "name": "New Zealand Rosemary Lamb Shanks",
+        "origin": "New Zealand",
+        "prep_time": 385,
+        "difficulty": "Expert",
+        "ingredients": [
+            "lamb shanks",
+            "rosemary",
+            "root vegetables",
+            "garlic",
+            "onion",
+            "wine"
+        ],
+        "steps": [
+            "Season lamb shanks with rosemary, garlic, and onion.",
+            "Brown the lamb shanks in a skillet.",
+            "Add root vegetables and wine to a slow cooker.",
+            "Cook until the lamb is tender and flavors have developed."
+        ],
+        "preprocessedname": "newzealandrosemarylambshanks",
+        "filename": "newzealandrosemarylambshanks.jpg"
+    },
+    {
+        "name": "Shortbread",
+        "origin": "New Zealand",
+        "prep_time": 25,
+        "difficulty": "Easy",
+        "ingredients": [
+            "butter",
+            "sugar",
+            "flour"
+        ],
+        "steps": [
+            "Cream butter and sugar together.",
+            "Mix in flour until crumbly.",
+            "Shape mixture into cookies.",
+            "Bake until lightly golden."
+        ],
+        "preprocessedname": "shortbread",
+        "filename": "shortbread.jpg"
+    },
+    {
+        "name": "Beef & Onion Piroshki",
+        "origin": "Russia",
+        "prep_time": 45,
+        "difficulty": "Advanced",
+        "ingredients": [
+            "ground beef",
+            "onion",
+            "dough",
+            "spices"
+        ],
+        "steps": [
+            "Cook ground beef with onions and spices.",
+            "Prepare dough for piroshki.",
+            "Stuff the dough with the beef and onion mixture.",
+            "Bake until golden brown."
+        ],
+        "preprocessedname": "beefonionpiroshki",
+        "filename": "beefonionpiroshki.jpg"
+    },
+    {
+        "name": "Roasted Beet Jam",
+        "origin": "Russia",
+        "prep_time": 150,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "beets",
+            "sugar",
+            "vinegar",
+            "spices"
+        ],
+        "steps": [
+            "Roast the beets until tender.",
+            "Peel and grate the roasted beets.",
+            "Combine grated beets with sugar, vinegar, and spices.",
+            "Simmer until the jam reaches the desired consistency."
+        ],
+        "preprocessedname": "roastedbeetjam",
+        "filename": "roastedbeetjam.jpg"
+    },
+    {
+        "name": "Chicken Tikka Masala",
+        "origin": "India",
+        "prep_time": 280,
+        "difficulty": "Advanced",
+        "ingredients": [
+            "chicken",
+            "garam masala",
+            "cumin",
+            "gingerroot",
+            "tomato puree",
+            "cream"
+        ],
+        "steps": [
+            "Marinate chicken with garam masala, cumin, and gingerroot.",
+            "Grill or cook the chicken until browned.",
+            "Prepare a sauce using tomato puree and cream.",
+            "Combine chicken with sauce and simmer until cooked."
+        ],
+        "preprocessedname": "chickentikkamasala",
+        "filename": "chickentikkamasala.jpg"
+    },
+    {
+        "name": "Mango Lassi",
+        "origin": "India",
+        "prep_time": 10,
+        "difficulty": "Easy",
+        "ingredients": [
+            "mango",
+            "yogurt",
+            "sugar",
+            "milk",
+            "cardamom"
+        ],
+        "steps": [
+            "Blend mango with yogurt, milk, and sugar.",
+            "Add a pinch of cardamom.",
+            "Serve chilled."
+        ],
+        "preprocessedname": "mangolassi",
+        "filename": "mangolassi.jpg"
+    },
+    {
+        "name": "Zimtsterne",
+        "origin": "Switzerland",
+        "prep_time": 50,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "almond flour",
+            "sugar",
+            "egg whites",
+            "cinnamon",
+            "lemon juice"
+        ],
+        "steps": [
+            "Whip the egg whites and sugar until stiff peaks form.",
+            "Fold in almond flour, cinnamon, and lemon juice.",
+            "Roll out the dough and cut into star shapes.",
+            "Place on a baking tray and bake until golden brown.",
+            "Cool before serving."
+        ],
+        "preprocessedname": "zimtsterne",
+        "filename": "zimtsterne.jpg"
+    },
+    {
+        "name": "Slow-Cooker Chickpea Tagine",
+        "origin": "Morocco",
+        "prep_time": 260,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "chickpeas",
+            "vegetables",
+            "shredded chicken",
+            "spices",
+            "broth"
+        ],
+        "steps": [
+            "Add chickpeas, vegetables, and spices into the slow cooker.",
+            "Pour in the broth.",
+            "Cook on low heat for 4-5 hours.",
+            "Add shredded chicken in the last 10 minutes.",
+            "Serve hot with rice or bread."
+        ],
+        "preprocessedname": "slowcookerchickpeentagine",
+        "filename": "slowcookerchickpeentagine.jpg"
+    },
+    {
+        "name": "Moroccan Pot Roast",
+        "origin": "Morocco",
+        "prep_time": 260,
+        "difficulty": "Advanced",
+        "ingredients": [
+            "beef roast",
+            "chickpeas",
+            "eggplant",
+            "honey",
+            "mint",
+            "spices"
+        ],
+        "steps": [
+            "Sear the beef roast until brown on all sides.",
+            "Add chickpeas, eggplant, honey, and mint.",
+            "Season with spices and roast in the oven until tender.",
+            "Check tenderness and adjust seasoning if necessary.",
+            "Serve warm with bread or rice."
+        ],
+        "preprocessedname": "moroccanpotroast",
+        "filename": "moroccanpotroast.jpg"
+    },
+    {
+        "name": "Tomato-Garlic Lentil Bowls",
+        "origin": "Ethiopia",
+        "prep_time": 50,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "lentils",
+            "tomato",
+            "garlic",
+            "onion",
+            "spices"
+        ],
+        "steps": [
+            "Saute onion and garlic until fragrant.",
+            "Add chopped tomatoes and spices.",
+            "Stir in lentils and add water or broth.",
+            "Simmer until lentils are tender.",
+            "Serve hot with rice or bread."
+        ],
+        "preprocessedname": "tomatogarliclentilbowls",
+        "filename": "tomatogarliclentilbowls.jpg"
+    },
+    {
+        "name": "Best Lasagna",
+        "origin": "Italy",
+        "prep_time": 110,
+        "difficulty": "Advanced",
+        "ingredients": [
+            "lasagna noodles",
+            "ground beef",
+            "tomato sauce",
+            "ricotta cheese",
+            "mozzarella",
+            "egg",
+            "parmesan cheese"
+        ],
+        "steps": [
+            "Cook ground beef until browned, then mix with tomato sauce.",
+            "Boil the lasagna noodles until tender.",
+            "Layer noodles, ricotta mixture, meat sauce, and mozzarella.",
+            "Bake in preheated oven for 60 minutes.",
+            "Top with parmesan and bake until bubbly."
+        ],
+        "preprocessedname": "bestlasagna",
+        "filename": "bestlasagna.jpg"
+    },
+    {
+        "name": "Lime and Dill Chimichurri Shrimp",
+        "origin": "Argentina",
+        "prep_time": 35,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "shrimp",
+            "lime",
+            "dill",
+            "garlic",
+            "chimichurri sauce"
+        ],
+        "steps": [
+            "Mix lime juice, dill, and garlic with chimichurri sauce.",
+            "Marinate shrimp in the chimichurri mixture for 10 minutes.",
+            "Skewer shrimp and grill until cooked through.",
+            "Serve hot with dipping sauce or as-is.",
+            "Garnish with additional dill if desired."
+        ],
+        "preprocessedname": "limeanddillchimichurrishrimp",
+        "filename": "limeanddillchimichurrishrimp.jpg"
+    },
+    {
+        "name": "Brazilian Pork & Black Bean Stew",
+        "origin": "Brazil",
+        "prep_time": 455,
+        "difficulty": "Advanced",
+        "ingredients": [
+            "pork",
+            "black beans",
+            "onions",
+            "tomatoes",
+            "spices",
+            "rice"
+        ],
+        "steps": [
+            "Brown pork in a large pot.",
+            "Add onions, garlic, and spices and cook until fragrant.",
+            "Stir in tomatoes and black beans.",
+            "Simmer for hours until flavors combine.",
+            "Serve hot with rice."
+        ],
+        "preprocessedname": "brazilianporkandblackbeanstew",
+        "filename": "brazilianporkandblackbeanstew.jpg"
+    },
+    {
+        "name": "Coconut Mango Bread Pudding with Rum Sauce",
+        "origin": "Puerto Rico",
+        "prep_time": 210,
+        "difficulty": "Expert",
+        "ingredients": [
+            "bread",
+            "mango",
+            "coconut milk",
+            "sugar",
+            "rum",
+            "vanilla"
+        ],
+        "steps": [
+            "Mix bread pieces with coconut milk, sugar, and vanilla.",
+            "Fold in diced mango pieces.",
+            "Pour into a baking dish and bake until set.",
+            "Prepare rum sauce with brown sugar and rum.",
+            "Serve warm with ice cream or whipped cream."
+        ],
+        "preprocessedname": "coconutmangobreadpudding",
+        "filename": "coconutmangobreadpudding.jpg"
+    },
+    {
+        "name": "Jamaican-Style Beef Stew",
+        "origin": "Jamaica",
+        "prep_time": 100,
+        "difficulty": "Advanced",
+        "ingredients": [
+            "beef chuck",
+            "potatoes",
+            "carrots",
+            "onions",
+            "celery",
+            "garlic",
+            "thyme",
+            "allspice",
+            "beef broth"
+        ],
+        "steps": [
+            "Cut beef into chunks and season with allspice and thyme.",
+            "Sauté beef chunks in a large pot until browned.",
+            "Add onions, garlic, carrots, celery, and potatoes.",
+            "Pour in beef broth and bring to a boil.",
+            "Simmer until beef and vegetables are tender."
+        ],
+        "preprocessedname": "jamaicanstylebeefstew",
+        "filename": "jamaicanstylebeefstew.jpg"
+    },
+    {
+        "name": "Jamaican Cabbage and Saltfish",
+        "origin": "Jamaica",
+        "prep_time": 30,
+        "difficulty": "Easy",
+        "ingredients": [
+            "cabbage",
+            "saltfish",
+            "onions",
+            "tomatoes",
+            "garlic",
+            "thyme",
+            "pepper"
+        ],
+        "steps": [
+            "Soak the saltfish to remove excess salt.",
+            "Sauté onions, garlic, and tomatoes in a pot.",
+            "Add cabbage and season with thyme and pepper.",
+            "Add the soaked saltfish and cook until tender."
+        ],
+        "preprocessedname": "jamaicancabbageandsaltfish",
+        "filename": "jamaicancabbageandsaltfish.jpg"
+    },
+    {
+        "name": "Jamaican Chocolate Cookies with Caramel Creme",
+        "origin": "Jamaica",
+        "prep_time": 55,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "cocoa powder",
+            "sweet potatoes",
+            "butter",
+            "sugar",
+            "flour",
+            "caramel creme"
+        ],
+        "steps": [
+            "Cream butter and sugar until light and fluffy.",
+            "Add cocoa powder and mashed sweet potatoes.",
+            "Fold in flour and form dough.",
+            "Shape cookies and bake until firm.",
+            "Sandwich cookies with caramel creme."
+        ],
+        "preprocessedname": "jamaicanchocolatecookies",
+        "filename": "jamaicanchocolatecookies.jpg"
+    },
+    {
+        "name": "Quick Tacos al Pastor",
+        "origin": "Hawaii",
+        "prep_time": 25,
+        "difficulty": "Easy",
+        "ingredients": [
+            "pork",
+            "pineapple",
+            "taco shells",
+            "onions",
+            "garlic",
+            "cumin",
+            "paprika"
+        ],
+        "steps": [
+            "Season pork with cumin, paprika, garlic, and salt.",
+            "Grill or cook pork until well done.",
+            "Add pineapple chunks and cook until caramelized.",
+            "Serve pork and pineapple mixture in taco shells with onions."
+        ],
+        "preprocessedname": "quicktacosalpastor",
+        "filename": "quicktacosalpastor.jpg"
+    },
+    {
+        "name": "Slow-Cooker Pork Pozole",
+        "origin": "United States",
+        "prep_time": 190,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "pork ribs",
+            "hominy",
+            "onions",
+            "garlic",
+            "chile powder",
+            "cumin",
+            "oregano",
+            "chicken broth"
+        ],
+        "steps": [
+            "Season pork ribs with spices (chile powder, cumin, and oregano).",
+            "Brown pork ribs in a skillet.",
+            "Add onions and garlic to the slow cooker.",
+            "Add browned pork ribs, hominy, and chicken broth.",
+            "Cook on low for 6 hours or until pork is tender."
+        ],
+        "preprocessedname": "slowcookerpozole",
+        "filename": "slowcookerpozole.jpg"
+    },
+    {
+        "name": "Poutine",
+        "origin": "Canada",
+        "prep_time": 40,
+        "difficulty": "Easy",
+        "ingredients": [
+            "frozen fries",
+            "cheese curds",
+            "gravy"
+        ],
+        "steps": [
+            "Cook frozen fries according to the package instructions.",
+            "Heat gravy in a separate pot.",
+            "Place hot fries on a plate.",
+            "Sprinkle cheese curds on top of the fries.",
+            "Pour hot gravy over the fries and cheese curds."
+        ],
+        "preprocessedname": "poutine",
+        "filename": "poutine.jpg"
+    },
+    {
+        "name": "Calgary Nanaimo Bars",
+        "origin": "Canada",
+        "prep_time": 90,
+        "difficulty": "Advanced",
+        "ingredients": [
+            "butter",
+            "sugar",
+            "cocoa powder",
+            "egg",
+            "cookies",
+            "coconut",
+            "custard powder"
+        ],
+        "steps": [
+            "Make the base by combining butter, sugar, cocoa powder, and cookies.",
+            "Layer the base into a greased pan.",
+            "Mix custard powder with milk and butter for the middle layer.",
+            "Add the custard mixture over the base layer.",
+            "Chill and cut into bars to serve."
+        ],
+        "preprocessedname": "calgarynanaimobars",
+        "filename": "calgarynanaimobars.jpg"
+    },
+    {
+        "name": "All-American Hamburgers",
+        "origin": "United States",
+        "prep_time": 20,
+        "difficulty": "Easy",
+        "ingredients": [
+            "ground beef",
+            "hamburger buns",
+            "cheese",
+            "onions",
+            "salt",
+            "pepper"
+        ],
+        "steps": [
+            "Form ground beef into hamburger patties.",
+            "Season with salt and pepper.",
+            "Grill or pan-fry patties until desired doneness.",
+            "Toast hamburger buns.",
+            "Assemble with cheese, onions, and hamburger patties."
+        ],
+        "preprocessedname": "allamericanhamburgers",
+        "filename": "allamericanhamburgers.jpg"
+    },
+    {
+        "name": "Ube-Macapuno Cake",
+        "origin": "Philippines",
+        "prep_time": 90,
+        "difficulty": "Advanced",
+        "ingredients": [
+            "ube extract",
+            "macapuno",
+            "flour",
+            "sugar",
+            "butter",
+            "baking powder",
+            "milk",
+            "eggs"
+        ],
+        "steps": [
+            "Preheat oven to 350°F (175°C).",
+            "Cream butter and sugar until light and fluffy.",
+            "Add eggs one at a time, mixing well.",
+            "Fold in ube extract, milk, and macapuno.",
+            "Sift in flour and baking powder. Mix until smooth.",
+            "Pour batter into a prepared cake pan.",
+            "Bake for 25-30 minutes or until a toothpick comes out clean."
+        ],
+        "preprocessedname": "ubemacapunocake",
+        "filename": "ubemacapunocake.jpg"
+    },
+    {
+        "name": "Sushi",
+        "origin": "Japan",
+        "prep_time": 60,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "sushi rice",
+            "rice vinegar",
+            "nori",
+            "fish (salmon, tuna, etc.)",
+            "vegetables (cucumber, avocado)",
+            "soy sauce"
+        ],
+        "steps": [
+            "Prepare sushi rice with rice vinegar, sugar, and salt.",
+            "Slice fish and vegetables into desired shapes.",
+            "Place nori on a bamboo sushi mat.",
+            "Spread rice evenly over nori.",
+            "Add toppings like fish or vegetables.",
+            "Roll the sushi tightly with the bamboo mat.",
+            "Slice into bite-sized pieces and serve with soy sauce."
+        ],
+        "preprocessedname": "sushi",
+        "filename": "sushi.jpg"
+    },
+    {
+        "name": "Udon",
+        "origin": "Japan",
+        "prep_time": 60,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "udon noodles",
+            "chicken broth",
+            "soy sauce",
+            "mirin",
+            "green onions",
+            "tempura flakes",
+            "pork or chicken slices"
+        ],
+        "steps": [
+            "Cook udon noodles as per package instructions.",
+            "Prepare a savory broth using chicken broth, soy sauce, and mirin.",
+            "Simmer pork or chicken slices until cooked.",
+            "Add cooked udon noodles to the broth.",
+            "Top with green onions and tempura flakes.",
+            "Serve hot."
+        ],
+        "preprocessedname": "udon",
+        "filename": "udon.jpg"
+    },
+    {
+        "name": "Tofu",
+        "origin": "Japan",
+        "prep_time": 30,
+        "difficulty": "Easy",
+        "ingredients": [
+            "tofu",
+            "soy sauce",
+            "ginger",
+            "green onions",
+            "mirin"
+        ],
+        "steps": [
+            "Slice tofu into desired shapes.",
+            "Pan-fry tofu until golden brown on both sides.",
+            "Prepare a sauce using soy sauce, mirin, and grated ginger.",
+            "Drizzle sauce over fried tofu.",
+            "Garnish with green onions and serve."
+        ],
+        "preprocessedname": "tofu",
+        "filename": "tofu.jpg"
+    },
+    {
+        "name": "Tempura",
+        "origin": "Japan",
+        "prep_time": 45,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "shrimp",
+            "assorted vegetables (carrot, sweet potato, zucchini)",
+            "tempura flour",
+            "water",
+            "oil for frying"
+        ],
+        "steps": [
+            "Prepare tempura batter by mixing tempura flour and water.",
+            "Heat oil in a deep pot to 350°F (175°C).",
+            "Dip shrimp and vegetables into the batter.",
+            "Fry the battered items until crispy and golden brown.",
+            "Drain excess oil and serve with dipping sauce."
+        ],
+        "preprocessedname": "tempura",
+        "filename": "tempura.jpg"
+    },
+    {
+        "name": "Yakitori",
+        "origin": "Japan",
+        "prep_time": 45,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "chicken pieces",
+            "soy sauce",
+            "mirin",
+            "sake",
+            "brown sugar",
+            "skewers"
+        ],
+        "steps": [
+            "Skewer chicken pieces onto wooden skewers.",
+            "Prepare a glaze by combining soy sauce, mirin, sake, and brown sugar.",
+            "Grill the chicken skewers over medium heat, basting with the glaze.",
+            "Cook until chicken is fully cooked and has a nice caramelized coating.",
+            "Serve hot."
+        ],
+        "preprocessedname": "yakitori",
+        "filename": "yakitori.jpg"
+    },
+    {
+        "name": "Sashimi",
+        "origin": "Japan",
+        "prep_time": 30,
+        "difficulty": "Easy",
+        "ingredients": [
+            "fresh fish (salmon, tuna, yellowtail)",
+            "soy sauce",
+            "wasabi",
+            "pickled ginger"
+        ],
+        "steps": [
+            "Slice fresh fish into thin, uniform slices.",
+            "Arrange the slices on a plate.",
+            "Serve with soy sauce, wasabi, and pickled ginger on the side."
+        ],
+        "preprocessedname": "sashimi",
+        "filename": "sashimi.jpg"
+    },
+    {
+        "name": "Ramen",
+        "origin": "Japan",
+        "prep_time": 60,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "ramen noodles",
+            "pork broth",
+            "soy sauce",
+            "egg",
+            "green onions",
+            "nori",
+            "pork slices"
+        ],
+        "steps": [
+            "Prepare pork broth by simmering pork bones for several hours.",
+            "Boil ramen noodles according to package instructions.",
+            "Poach an egg until soft-boiled.",
+            "Add the cooked noodles to the broth along with pork slices.",
+            "Top with green onions, nori, and the soft-boiled egg.",
+            "Serve hot."
+        ],
+        "preprocessedname": "ramen",
+        "filename": "ramen.jpg"
+    },
+    {
+        "name": "Donburi",
+        "origin": "Japan",
+        "prep_time": 30,
+        "difficulty": "Easy",
+        "ingredients": [
+            "rice",
+            "chicken/pork/beef",
+            "soy sauce",
+            "mirin",
+            "onion",
+            "green onions"
+        ],
+        "steps": [
+            "Cook rice and prepare a protein of choice (chicken, pork, beef).",
+            "Cook the protein with soy sauce, mirin, and onions.",
+            "Place the cooked rice in a bowl.",
+            "Top the rice with the cooked protein and sauce.",
+            "Garnish with green onions and serve."
+        ],
+        "preprocessedname": "donburi",
+        "filename": "donburi.jpg"
+    },
+    {
+        "name": "Miso Soup",
+        "origin": "Japan",
+        "prep_time": 30,
+        "difficulty": "Easy",
+        "ingredients": [
+            "miso paste",
+            "tofu",
+            "seaweed",
+            "green onions",
+            "dashi"
+        ],
+        "steps": [
+            "Prepare dashi broth as a base.",
+            "Add miso paste to the dashi broth and mix well.",
+            "Add tofu and seaweed to the soup.",
+            "Simmer until heated through.",
+            "Garnish with green onions and serve."
+        ],
+        "preprocessedname": "misosoup",
+        "filename": "misosoup.jpg"
+    },
+    {
+        "name": "Kaiseki Ryori",
+        "origin": "Japan",
+        "prep_time": 120,
+        "difficulty": "Expert",
+        "ingredients": [
+            "rice",
+            "seasonal vegetables",
+            "fish",
+            "meat",
+            "miso",
+            "seafood",
+            "seasonal herbs",
+            "broth",
+            "soy sauce",
+            "mirin"
+        ],
+        "steps": [
+            "Prepare seasonal ingredients and ingredients based on the theme of Kaiseki.",
+            "Create appetizers, soup, grilled dishes, and steamed dishes.",
+            "Cook each dish with specific attention to presentation and timing.",
+            "Plate each course with delicate, artistic arrangement.",
+            "Use traditional Japanese techniques to balance flavors."
+        ],
+        "preprocessedname": "kaisekiryori",
+        "filename": "kaisekiryori.jpg"
+    },
+    {
+        "name": "Shabu Shabu Hot Pot",
+        "origin": "Japan",
+        "prep_time": 90,
+        "difficulty": "Expert",
+        "ingredients": [
+            "thinly sliced beef",
+            "assorted vegetables (cabbage, mushrooms, carrot, bok choy)",
+            "tofu",
+            "ponzu sauce",
+            "sesame sauce",
+            "seaweed",
+            "noodles"
+        ],
+        "steps": [
+            "Prepare a hot pot with broth on a portable stove.",
+            "Thinly slice high-quality beef for dipping.",
+            "Prepare an assortment of vegetables and tofu.",
+            "Bring broth to a simmer and place vegetables and meat into the broth.",
+            "Cook until fully cooked and serve with ponzu sauce or sesame sauce."
+        ],
+        "preprocessedname": "shabushabuhotpot",
+        "filename": "shabushabuhotpot.jpg"
+    },
+    {
+        "name": "Okonomiyaki",
+        "origin": "Japan",
+        "prep_time": 60,
+        "difficulty": "Expert",
+        "ingredients": [
+            "cabbage",
+            "all-purpose flour",
+            "egg",
+            "pork belly",
+            "shrimp",
+            "green onions",
+            "soy sauce",
+            "mirin",
+            "dashi",
+            "katsuobushi",
+            "mayonnaise"
+        ],
+        "steps": [
+            "Prepare a batter with flour, eggs, and dashi.",
+            "Mix shredded cabbage and green onions into the batter.",
+            "Cook pork belly or shrimp and add to the mixture.",
+            "Pour the batter onto a hot griddle or skillet and spread evenly.",
+            "Cook until golden brown on both sides.",
+            "Top with soy sauce, mayonnaise, and katsuobushi."
+        ],
+        "preprocessedname": "okonomiyaki",
+        "filename": "okonomiyaki.jpg"
+    },
+    {
+        "name": "Unagi no Kabayaki",
+        "origin": "Japan",
+        "prep_time": 90,
+        "difficulty": "Expert",
+        "ingredients": [
+            "eel fillets",
+            "soy sauce",
+            "mirin",
+            "sake",
+            "sugar",
+            "rice"
+        ],
+        "steps": [
+            "Clean and fillet eel.",
+            "Prepare a sweet soy sauce mixture with mirin, sake, and sugar.",
+            "Grill the eel fillets until tender and slightly charred.",
+            "Brush the eel with the sweet soy mixture while grilling.",
+            "Serve over a bed of freshly steamed rice with the sweet glaze."
+        ],
+        "preprocessedname": "unaginokabayaki",
+        "filename": "unaginokabayaki.jpg"
+    },
+    {
+        "name": "Mentaiko",
+        "origin": "Japan",
+        "prep_time": 45,
+        "difficulty": "Expert",
+        "ingredients": [
+            "cod roe",
+            "salt",
+            "red pepper",
+            "soy sauce",
+            "mirin",
+            "sake"
+        ],
+        "steps": [
+            "Prepare fresh cod roe and clean thoroughly.",
+            "Mix cod roe with red pepper, soy sauce, mirin, sake, and salt.",
+            "Cure the mixture for several hours.",
+            "Monitor the balance between spice and curing to ensure authentic flavors."
+        ],
+        "preprocessedname": "mentaiko",
+        "filename": "mentaiko.jpg"
+    },
+    {
+        "name": "Cinnamon Fruit Biscuits",
+        "origin": "United States",
+        "prep_time": 30,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "refrigerated buttermilk biscuits",
+            "sugar",
+            "cinnamon",
+            "fruit preserves"
+        ],
+        "steps": [
+            "Preheat oven to the temperature specified on the biscuit package.",
+            "Flatten each biscuit slightly and sprinkle with a mixture of sugar and cinnamon.",
+            "Place a small amount of fruit preserves in the center of each biscuit.",
+            "Fold biscuits over to seal and bake according to package instructions."
+        ],
+        "preprocessedname": "cinnamonfruitbiscuits",
+        "filename": "cinnamonfruitbiscuits.jpg"
+    },
+    {
+        "name": "Quick Cherry Turnovers",
+        "origin": "United States",
+        "prep_time": 20,
+        "difficulty": "Easy",
+        "ingredients": [
+            "refrigerated crescent rolls",
+            "cherry pie filling",
+            "powdered sugar (optional for glaze)"
+        ],
+        "steps": [
+            "Preheat oven to the temperature specified on the crescent roll package.",
+            "Unroll crescent dough and separate into triangles.",
+            "Place a small amount of cherry pie filling in the center of each triangle.",
+            "Fold dough over filling, seal edges, and bake as directed.",
+            "Optional: Drizzle with a powdered sugar glaze."
+        ],
+        "preprocessedname": "quickcherryturnovers",
+        "filename": "quickcherryturnovers.jpg"
+    },
+    {
+        "name": "Banana and Chocolate Puff Pastry",
+        "origin": "United States",
+        "prep_time": 30,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "puff pastry",
+            "bananas",
+            "chocolate chips",
+            "butter",
+            "brown sugar",
+            "salt (optional)"
+        ],
+        "steps": [
+            "Preheat oven to the temperature specified on the puff pastry package.",
+            "Cut puff pastry into squares and place banana slices and chocolate chips in the center.",
+            "Fold pastry over to seal edges and brush with melted butter.",
+            "Bake until golden brown.",
+            "Optional: Drizzle with leftover butter and brown sugar mixture or sprinkle with salt."
+        ],
+        "preprocessedname": "bananachocolatepuffpastry",
+        "filename": "bananachocolatepuffpastry.jpg"
+    },
+    {
+        "name": "Caramel Bubble Ring",
+        "origin": "United States",
+        "prep_time": 35,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "refrigerated biscuit dough",
+            "sugar",
+            "cinnamon",
+            "caramel topping",
+            "butter"
+        ],
+        "steps": [
+            "Preheat oven to 350°F (175°C).",
+            "Cut biscuit dough into quarters and toss in a mixture of sugar and cinnamon.",
+            "Layer biscuit pieces in a bundt pan, drizzling caramel topping and melted butter between layers.",
+            "Bake for 30-35 minutes or until golden brown.",
+            "Cool slightly before inverting onto a serving plate."
+        ],
+        "preprocessedname": "caramelbubblering",
+        "filename": "caramelbubblering.jpg"
+    },
+    {
+        "name": "Lemon Pound Cake Muffins",
+        "origin": "United States",
+        "prep_time": 30,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "all-purpose flour",
+            "sugar",
+            "eggs",
+            "lemon juice",
+            "lemon zest",
+            "butter",
+            "baking powder",
+            "milk"
+        ],
+        "steps": [
+            "Preheat oven to 350°F (175°C) and prepare a muffin tin with liners.",
+            "Cream together butter and sugar, then add eggs one at a time.",
+            "Mix in lemon juice, lemon zest, and milk.",
+            "Gradually add flour and baking powder until combined.",
+            "Spoon batter into muffin tin and bake for 20-25 minutes or until a toothpick comes out clean."
+        ],
+        "preprocessedname": "lemonpoundcakemuffins",
+        "filename": "lemonpoundcakemuffins.jpg"
+    },
+    {
+        "name": "Pumpkin Scones",
+        "origin": "United States",
+        "prep_time": 30,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "all-purpose flour",
+            "sugar",
+            "pumpkin puree",
+            "butter",
+            "baking powder",
+            "milk",
+            "pumpkin spice"
+        ],
+        "steps": [
+            "Preheat oven to 400°F (200°C) and prepare a baking sheet.",
+            "Mix together flour, sugar, baking powder, and pumpkin spice.",
+            "Cut in butter until the mixture resembles coarse crumbs.",
+            "Add pumpkin puree and milk, mixing until dough forms.",
+            "Shape dough into a circle, cut into wedges, and bake for 15-20 minutes."
+        ],
+        "preprocessedname": "pumpkinscones",
+        "filename": "pumpkinscones.jpg"
+    },
+    {
+        "name": "Greek Tortellini Skillet",
+        "origin": "Greece",
+        "prep_time": 30,
+        "difficulty": "Easy",
+        "ingredients": [
+            "tortellini",
+            "olive oil",
+            "feta cheese",
+            "kalamata olives",
+            "cherry tomatoes",
+            "spinach"
+        ],
+        "steps": [
+            "Cook tortellini according to package instructions and set aside.",
+            "Heat olive oil in a skillet over medium heat.",
+            "Add cherry tomatoes and cook until softened.",
+            "Mix in spinach, kalamata olives, and feta cheese.",
+            "Add cooked tortellini and toss to combine.",
+            "Serve warm."
+        ],
+        "preprocessedname": "greektortelliniskillet",
+        "filename": "greektortelliniskillet.jpg"
+    },
+    {
+        "name": "Beef Tenderloin and Mushroom Sauce",
+        "origin": "United States",
+        "prep_time": 25,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "beef tenderloin",
+            "butter",
+            "mushrooms",
+            "garlic",
+            "heavy cream",
+            "salt",
+            "pepper"
+        ],
+        "steps": [
+            "Season beef tenderloin with salt and pepper.",
+            "Sear beef in butter until desired doneness and set aside.",
+            "In the same pan, sauté mushrooms and garlic until tender.",
+            "Add heavy cream and simmer until sauce thickens.",
+            "Serve sauce over beef tenderloin."
+        ],
+        "preprocessedname": "beeftenderloinandmushroomsauce",
+        "filename": "beeftenderloinandmushroomsauce.jpg"
+    },
+    {
+        "name": "Cheeseburger Pizza",
+        "origin": "United States",
+        "prep_time": 30,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "pizza dough",
+            "ground beef",
+            "cheddar cheese",
+            "pickles",
+            "mustard",
+            "ketchup",
+            "onions"
+        ],
+        "steps": [
+            "Preheat oven to 425°F (220°C).",
+            "Cook ground beef until browned and set aside.",
+            "Spread ketchup and mustard over pizza dough.",
+            "Top with ground beef, cheddar cheese, pickles, and onions.",
+            "Bake for 15-20 minutes or until crust is golden brown."
+        ],
+        "preprocessedname": "cheeseburgerpizza",
+        "filename": "cheeseburgerpizza.jpg"
+    },
+    {
+        "name": "Lasagna Soup",
+        "origin": "Italy",
+        "prep_time": 30,
+        "difficulty": "Easy",
+        "ingredients": [
+            "ground beef",
+            "onion",
+            "garlic",
+            "tomato paste",
+            "diced tomatoes",
+            "beef broth",
+            "lasagna noodles",
+            "ricotta cheese",
+            "parmesan cheese",
+            "mozzarella cheese"
+        ],
+        "steps": [
+            "Brown ground beef with onion and garlic in a large pot.",
+            "Stir in tomato paste, diced tomatoes, and beef broth.",
+            "Break lasagna noodles into pieces and add to the pot.",
+            "Simmer until noodles are tender.",
+            "Serve topped with ricotta, parmesan, and mozzarella cheese."
+        ],
+        "preprocessedname": "lasagnasoup",
+        "filename": "lasagnasoup.jpg"
+    },
+    {
+        "name": "Sesame Beef Skewers",
+        "origin": "Asian Fusion",
+        "prep_time": 30,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "beef strips",
+            "sesame ginger dressing",
+            "pineapple chunks",
+            "bell peppers",
+            "skewers"
+        ],
+        "steps": [
+            "Marinate beef strips in sesame ginger dressing for 20 minutes.",
+            "Thread beef, pineapple, and bell peppers onto skewers.",
+            "Grill skewers over medium heat until beef is cooked through.",
+            "Serve with additional dressing for dipping."
+        ],
+        "preprocessedname": "sesamebeefskewers",
+        "filename": "sesamebeefskewers.jpg"
+    },
+    {
+        "name": "Vegetable Steak Soup",
+        "origin": "United States",
+        "prep_time": 45,
+        "difficulty": "Easy",
+        "ingredients": [
+            "steak",
+            "carrots",
+            "potatoes",
+            "celery",
+            "onion",
+            "beef broth",
+            "salt",
+            "pepper"
+        ],
+        "steps": [
+            "Dice steak and vegetables.",
+            "Heat a large pot and sear steak until browned.",
+            "Add vegetables and sauté for 5 minutes.",
+            "Pour in beef broth, season with salt and pepper.",
+            "Simmer until vegetables are tender, about 30 minutes."
+        ],
+        "preprocessedname": "vegetablesteaksoup",
+        "filename": "vegetablesteaksoup.jpg"
+    },
+    {
+        "name": "Stuffed Poblano Peppers",
+        "origin": "Mexico",
+        "prep_time": 25,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "poblano peppers",
+            "ground beef",
+            "onion",
+            "garlic",
+            "cheese",
+            "tomato sauce",
+            "spices (cumin, chili powder)"
+        ],
+        "steps": [
+            "Preheat oven to 375°F (190°C).",
+            "Roast poblano peppers until charred, then peel off the skin.",
+            "Cook ground beef with diced onion, garlic, and spices.",
+            "Stuff peppers with beef mixture and cheese.",
+            "Place in a baking dish, top with tomato sauce, and bake for 15 minutes."
+        ],
+        "preprocessedname": "stuffedpoblanopeppers",
+        "filename": "stuffedpoblanopeppers.jpg"
+    },
+    {
+        "name": "Spicy Mongolian Beef Salad",
+        "origin": "China",
+        "prep_time": 30,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "beef strips",
+            "mixed greens",
+            "red bell pepper",
+            "carrot",
+            "soy sauce",
+            "hoisin sauce",
+            "garlic",
+            "ginger",
+            "sesame oil",
+            "red chili flakes"
+        ],
+        "steps": [
+            "Marinate beef strips in soy sauce, hoisin sauce, garlic, ginger, and chili flakes for 15 minutes.",
+            "Sear beef in a hot pan with sesame oil until cooked through.",
+            "Toss mixed greens, bell pepper, and carrot in a bowl.",
+            "Top salad with cooked beef and drizzle with remaining marinade as dressing."
+        ],
+        "preprocessedname": "spicymongolianbeefsalad",
+        "filename": "spicymongolianbeefsalad.jpg"
+    },
+    {
+        "name": "Beef & Bacon Gnocchi Skillet",
+        "origin": "Italy",
+        "prep_time": 30,
+        "difficulty": "Advanced",
+        "ingredients": [
+            "gnocchi",
+            "ground beef",
+            "bacon",
+            "onion",
+            "garlic",
+            "tomato paste",
+            "heavy cream",
+            "parmesan cheese",
+            "fresh basil",
+            "olive oil"
+        ],
+        "steps": [
+            "Cook bacon in a skillet until crispy, then set aside.",
+            "Sauté onion and garlic in the bacon fat.",
+            "Add ground beef and cook until browned.",
+            "Stir in tomato paste and heavy cream, simmering until thickened.",
+            "Cook gnocchi in boiling water, then add to skillet.",
+            "Top with parmesan cheese, crumbled bacon, and fresh basil."
+        ],
+        "preprocessedname": "beefbaconandgnocchiskillet",
+        "filename": "beefbaconandgnocchiskillet.jpg"
+    },
+    {
+        "name": "Steak Diane",
+        "origin": "France",
+        "prep_time": 30,
+        "difficulty": "Expert",
+        "ingredients": [
+            "beef tenderloin steaks",
+            "mushrooms",
+            "shallots",
+            "cognac",
+            "beef stock",
+            "heavy cream",
+            "dijon mustard",
+            "butter",
+            "parsley"
+        ],
+        "steps": [
+            "Sear steaks in butter until desired doneness, then set aside.",
+            "Sauté mushrooms and shallots in the same pan.",
+            "Deglaze pan with cognac, then add beef stock and dijon mustard.",
+            "Simmer sauce and stir in heavy cream.",
+            "Return steaks to pan to coat with sauce.",
+            "Garnish with parsley and serve."
+        ],
+        "preprocessedname": "steakdiane",
+        "filename": "steakdiane.jpg"
+    },
+    {
+        "name": "Peach Cobbler Dump Cake",
+        "origin": "United States",
+        "prep_time": 45,
+        "difficulty": "Easy",
+        "ingredients": [
+            "peaches",
+            "yellow cake mix",
+            "butter",
+            "brown sugar",
+            "cinnamon"
+        ],
+        "steps": [
+            "Preheat oven to 350°F (175°C).",
+            "Pour peaches into a greased 9x13-inch baking dish.",
+            "Sprinkle yellow cake mix over the peaches.",
+            "Melt butter and drizzle evenly over the cake mix.",
+            "Sprinkle brown sugar and cinnamon over the top.",
+            "Bake for 45 minutes or until the top is golden brown."
+        ],
+        "preprocessedname": "peachcobblerdumpcake",
+        "filename": "peachcobblerdumpcake.jpg"
+    },
+    {
+        "name": "Pineapple Sheet Cake",
+        "origin": "United States",
+        "prep_time": 50,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "pineapple",
+            "flour",
+            "sugar",
+            "butter",
+            "eggs",
+            "vanilla",
+            "baking powder"
+        ],
+        "steps": [
+            "Preheat oven to 350°F (175°C).",
+            "Cream butter and sugar together in a bowl.",
+            "Add eggs and vanilla to the mixture.",
+            "Mix in flour, baking powder, and crushed pineapple.",
+            "Pour mixture into a greased sheet cake pan.",
+            "Bake for 35-40 minutes or until a toothpick comes out clean."
+        ],
+        "preprocessedname": "pineapplesheetcake",
+        "filename": "pineapplesheetcake.jpg"
+    },
+    {
+        "name": "Black Forest Dump Cake",
+        "origin": "United States",
+        "prep_time": 50,
+        "difficulty": "Moderate",
+        "ingredients": [
+            "cherry pie filling",
+            "chocolate cake mix",
+            "butter",
+            "whipped cream",
+            "cherry juice"
+        ],
+        "steps": [
+            "Preheat oven to 350°F (175°C).",
+            "Pour cherry pie filling into a greased 9x13-inch baking dish.",
+            "Sprinkle chocolate cake mix over the cherries.",
+            "Melt butter and drizzle evenly over the cake mix.",
+            "Bake for 50 minutes or until the top is crisp.",
+            "Whip cream and mix with reserved cherry juice for topping.",
+            "Serve with cherry topping and whipped cream."
+        ],
+        "preprocessedname": "blackforestdumpcake",
+        "filename": "blackforestdumpcake.jpg"
+    },
+    {
+        "name": "Coconut-Layered Pound Cake",
+        "origin": "United States",
+        "prep_time": 10,
+        "difficulty": "Easy",
+        "ingredients": [
+            "pound cake",
+            "coconut flakes",
+            "chocolate",
+            "almonds"
+        ],
+        "steps": [
+            "Prepare the pound cake as directed.",
+            "Toast the coconut flakes and almonds.",
+            "Layer chocolate and toasted coconut onto the pound cake.",
+            "Slice and serve."
+        ],
+        "preprocessedname": "coconutlayeredpoundcake",
+        "filename": "coconutlayeredpoundcake.jpg"
+    },
+    {
+        "name": "Blueberry Angel Dessert",
+        "origin": "United States",
+        "prep_time": 10,
+        "difficulty": "Easy",
+        "ingredients": [
+            "angel food cake",
+            "blueberry pie filling",
+            "whipped topping"
+        ],
+        "steps": [
+            "Slice angel food cake into pieces.",
+            "Spread blueberry pie filling over the cake.",
+            "Top with whipped topping.",
+            "Chill in the refrigerator for at least 10 minutes.",
+            "Serve chilled."
+        ],
+        "preprocessedname": "blueberryangeldessert",
+        "filename": "blueberryangeldessert.jpg"
+    },
+    {
+        "name": "Pig Pickin Cake",
+        "origin": "United States",
+        "prep_time": 40,
+        "difficulty": "Intermediate",
+        "ingredients": [
+            "yellow cake mix",
+            "mandarin oranges",
+            "whipped topping",
+            "pineapple",
+            "sugar"
+        ],
+        "steps": [
+            "Prepare and bake the yellow cake mix as directed.",
+            "Drain mandarin oranges and mix them with pineapple.",
+            "Frost cake layers with whipped topping and sprinkle the citrus mixture.",
+            "Chill for 20 minutes before serving."
+        ],
+        "preprocessedname": "pigpickincake",
+        "filename": "pigpickincake.jpg"
+    },
+    {
+        "name": "Boston Cream Angel Cake",
+        "origin": "United States",
+        "prep_time": 30,
+        "difficulty": "Easy",
+        "ingredients": [
+            "angel food cake",
+            "instant pudding",
+            "vanilla ice cream",
+            "chocolate syrup"
+        ],
+        "steps": [
+            "Bake or prepare angel food cake.",
+            "Prepare instant pudding and layer over cake.",
+            "Drizzle with chocolate syrup.",
+            "Top with vanilla ice cream before serving."
+        ],
+        "preprocessedname": "bostoncreamangelcake",
+        "filename": "bostoncreamangelcake.jpg"
+    }
+]
